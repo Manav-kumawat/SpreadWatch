@@ -1,0 +1,54 @@
+{
+  "mode": "sample",
+  "synthetic": true,
+  "run_at": "2026-10-18T01:02:50",
+  "n_trades_input": 16504,
+  "n_trades_used": 16504,
+  "n_trades_rejected": 0,
+  "n_issuers": 50,
+  "n_rating_actions": 129,
+  "period": [
+    "2016-01-01",
+    "2024-12-31"
+  ],
+  "cohorts": 8,
+  "validation": {
+    "n_checked": 16504,
+    "n_pass": 16504,
+    "pass_rate": 1.0,
+    "tolerance_bps": 5.0,
+    "mean_abs_diff_bps": 0.0008079112193003622,
+    "median_abs_diff_bps": 0.000574037039235975,
+    "p95_abs_diff_bps": 0.0024672866478869784,
+    "max_abs_diff_bps": 0.009904914377223406
+  },
+  "tolerance_bps": 5.0,
+  "event_study": {
+    "n_events_total": 60,
+    "n_events_usable": 37,
+    "n_placebo_usable": 48,
+    "mean_dS_pre_bps": 121.49503631426974,
+    "median_dS_pre_bps": 49.28697952871299,
+    "share_events_widened": 0.7297297297297297,
+    "t_stat": 3.0777194961006136,
+    "t_pvalue": 0.0019872985599860777,
+    "wilcoxon_pvalue": 2.182045136578381e-05,
+    "hit_rate": 0.5405405405405406,
+    "median_lead_days": 28.0,
+    "median_pre_share": 0.8198584156195929,
+    "placebo_mean_dS_pre_bps": -4.3935641898528965,
+    "false_alarm_rate": 0.041666666666666664,
+    "mannwhitney_pvalue": 1.844845627645187e-05,
+    "fisher_pvalue": 1.4688624160926123e-07,
+    "verdict": "YES",
+    "verdict_reason": "spreads widened significantly in the 30 days before downgrades, and more often than on random dates"
+  },
+  "sensitivity_verdicts": {
+    "base case": "YES",
+    "pre-window 60 days": "YES",
+    "pre-window 14 days": "YES",
+    "threshold 1.5 sd": "YES",
+    "threshold 2.5 sd": "YES",
+    "no benchmark (raw spread)": "YES"
+  }
+}

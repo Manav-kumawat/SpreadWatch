@@ -1,0 +1,13 @@
+# Python 3.10+
+pandas==2.3.3
+numpy==2.2.6
+scipy==1.15.3
+matplotlib==3.10.9
+plotly==7.1.0
+streamlit==1.65.0
+scikit-learn==1.7.2
+pypdf==6.21.1
+openpyxl==3.1.5
+pytest==9.1.1
+# optional - only for the LLM commentary mode
+anthropic==1.15.0

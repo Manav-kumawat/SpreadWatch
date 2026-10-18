@@ -1,0 +1,25 @@
+group,issuer_name_to_use,sector,why_selected_(verify_in_rationales),agencies_to_check,isin_1,isin_2,isin_3,notes
+event,Infrastructure Leasing & Financial Services Ltd,Infrastructure finance,ICRA cut AAA to AA+ (Aug 2018) then AA+ to BB and BB to D (Sep 2018),ICRA; CARE; India Ratings,,,,Also check IL&FS Financial Services Ltd - its NCDs traded more often
+event,Dewan Housing Finance Corporation Ltd,Housing finance,CARE cut AAA to AA+ (Feb 2019); agencies moved to D (Jun 2019),CARE; ICRA; CRISIL; Brickwork,,,,
+event,Reliance Capital Ltd,NBFC,Downgrades by CARE / ICRA / Brickwork from Apr 2019,CARE; ICRA; Brickwork,,,,
+event,Reliance Home Finance Ltd,Housing finance,ICRA CP cut (Mar 2019); CARE BBB+ to D (Apr 2019); Brickwork D (Sep 2019),CARE; ICRA; Brickwork,,,,
+event,Indiabulls Housing Finance Ltd,Housing finance,ICRA AAA to AA+ (30 Aug 2019); CRISIL AAA to AA+ (10 Sep 2019) and AA+ to AA (7 Feb 2020),ICRA; CRISIL; CARE,,,,
+event,Yes Bank Ltd,Private bank (bonds),ICRA and India Ratings cuts from May 2019; ICRA/CARE Upper Tier II to D (Jun 2020),ICRA; CARE; India Ratings,,,,Basel bonds: note AT1 vs Tier II
+event,Vodafone Idea Ltd,Telecom,CRISIL A+ to A (Aug 2019); BBB+ (Nov 2019); BB (Jan 2020); CARE cuts,CRISIL; CARE; India Ratings; Brickwork,,,,AGR Supreme Court ruling Oct 2019
+event,Altico Capital India Ltd,NBFC (real estate lending),India Ratings A+ to D (Sep 2019) after ECB interest default,India Ratings; CARE; Infomerics,,,,Bonds may be thinly traded
+event,Srei Infrastructure Finance Ltd,NBFC (infrastructure),Brickwork AA+ to AA (Jul 2019) and to A+ (Sep 2019); CARE / Acuite to D (Mar 2021),Brickwork; CARE; Acuite,,,,Borrowings moved to Srei Equipment Finance Ltd from Oct 2019 - check both
+event,Tata Motors Ltd,Automobiles,CARE AA+ to AA (Feb 2019); CRISIL AA to AA- (14 Aug 2019); CARE AA to AA- (19 Aug 2019),CRISIL; CARE; ICRA,,,,A non-crisis downgrade (JLR weakness) - useful contrast
+event,Piramal Capital & Housing Finance Ltd,NBFC / housing finance,ICRA AA+ to AA (Jun 2019); CARE AA+ to AA,ICRA; CARE,,,,
+event,Edelweiss Finance & Investments Ltd,NBFC,ICRA AA- to A+ (May 2019),ICRA; CRISIL; CARE,,,,Optional
+control,NTPC Ltd,Power (PSU),Expected stable AAA - confirm in rating history,CRISIL; ICRA; CARE,,,,
+control,Power Finance Corporation Ltd,Power finance (PSU),Expected stable AAA - confirm,CRISIL; ICRA; CARE,,,,Bonds trade very frequently
+control,REC Ltd,Power finance (PSU),Expected stable AAA - confirm,CRISIL; ICRA; CARE,,,,Formerly Rural Electrification Corporation Ltd
+control,National Bank for Agriculture and Rural Development,Development finance,Expected stable AAA - confirm,CRISIL; ICRA,,,,
+control,Indian Railway Finance Corporation Ltd,Railway finance (PSU),Expected stable AAA - confirm,CRISIL; ICRA; CARE,,,,
+control,National Highways Authority of India,Infrastructure (PSU),Expected stable AAA - confirm,CRISIL; ICRA; CARE,,,,
+control,Small Industries Development Bank of India,Development finance,Expected stable AAA - confirm,CRISIL; ICRA; CARE,,,,
+control,LIC Housing Finance Ltd,Housing finance,Expected stable AAA - confirm,CRISIL; CARE,,,,Same sector as several event issuers - good comparison
+control,Reliance Industries Ltd,Conglomerate,Expected stable AAA - confirm,CRISIL; CARE,,,,
+control,Larsen & Toubro Ltd,Engineering,Expected stable AAA - confirm,CRISIL; ICRA,,,,
+control,Bajaj Finance Ltd,NBFC,Expected stable AAA - confirm,CRISIL; ICRA; CARE,,,,Same sector as several event issuers
+control,Housing Development Finance Corporation Ltd,Housing finance,Expected stable AAA - confirm (merged into HDFC Bank Jul 2023 - stop window before),CRISIL; ICRA,,,,
