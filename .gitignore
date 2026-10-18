@@ -4,3 +4,9 @@ __pycache__/
 .DS_Store
 *.pyc
 .env
+
+# Untouched public downloads are large: keep them on disk, track only their download logs.
+# Re-create them with tools/fetch_nse_cbm.py and tools/fetch_fbil_gsec.py.
+data/raw/original/**
+!data/raw/original/**/
+!data/raw/original/**/download_log.csv

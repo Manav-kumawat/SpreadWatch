@@ -68,6 +68,8 @@ def read_document(path: Path) -> str:
         text = re.sub(r"<(script|style).*?</\1>", " ", text, flags=re.S | re.I)
         text = re.sub(r"<br\s*/?>|</p>|</tr>|</div>", "\n", text, flags=re.I)
         text = re.sub(r"<[^>]+>", " ", text)
+        import html as _html
+        text = _html.unescape(text)
     return text
 
 

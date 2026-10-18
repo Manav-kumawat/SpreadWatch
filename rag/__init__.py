@@ -39,6 +39,15 @@ class RationaleIndex:
             self.vectorizer = TfidfVectorizer(ngram_range=(1, 2), sublinear_tf=True, stop_words="english")
             self.matrix = self.vectorizer.fit_transform([c.text for c in self.chunks])
 
+    def _rebuild(self, chunks):
+        """Index a given list of chunks (used to restrict retrieval to one issuer's documents)."""
+        self.chunks = list(chunks)
+        self.vectorizer = None
+        if self.chunks:
+            self.vectorizer = TfidfVectorizer(ngram_range=(1, 2), sublinear_tf=True, stop_words="english")
+            self.matrix = self.vectorizer.fit_transform([c.text for c in self.chunks])
+        return self
+
     def __len__(self):
         return len(self.chunks)
 

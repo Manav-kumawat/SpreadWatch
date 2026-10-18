@@ -64,10 +64,15 @@ def fig_case(od, ddir, figdir, issuer, tag):
     ax.plot(s.date, s.benchmark_bps, color=GREY, ls=":", label="benchmark")
     for _, a in acts.iterrows():
         k = classify_action(a.rating_from, a.rating_to)
-        col = RED if k in ("downgrade", "default") else "green"
-        ax.axvline(pd.Timestamp(a.action_date), color=col, ls="--", lw=1)
-        ax.text(pd.Timestamp(a.action_date), ax.get_ylim()[1], f" {a.rating_from}→{a.rating_to}", color=col,
-                fontsize=8, va="top", rotation=90)
+        x = pd.Timestamp(a.action_date)
+        if k in ("downgrade", "default", "upgrade"):
+            col = RED if k != "upgrade" else "green"
+            ax.axvline(x, color=col, ls="--", lw=1.2)
+            short = lambda r: str(r).replace("CRISIL ", "").replace("CARE ", "").replace("[ICRA]", "")  # noqa: E731
+            ax.text(x, ax.get_ylim()[1], f" {short(a.rating_from)}→{short(a.rating_to)}", color=col,
+                    fontsize=8, va="top", rotation=90)
+        else:                                   # reaffirmations / outlook changes: faint, unlabelled
+            ax.axvline(x, color=GREY, ls=":", lw=0.6, alpha=0.5)
     ax.set_ylabel("Spread over matched-tenor G-sec (bps)")
     ax.set_title(f"Figure 2: {issuer} - spread and rating actions{tag}")
     ax.legend(frameon=False, loc="upper center", bbox_to_anchor=(0.5, -0.1), ncol=2)

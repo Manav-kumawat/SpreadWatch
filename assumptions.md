@@ -48,3 +48,14 @@ Every assumption below is a line in `config.py` or a stated rule in `engine/`. F
 |---|---|---|---|
 | A14 | Reported OTC trades on NSE/BSE are representative prices | They are the only public transaction prices for Indian corporate bonds. | Many bonds trade rarely; stale prices bias spreads toward no change. This biases the test *against* finding early movement, which makes a YES conservative. |
 | A15 | Rating action dates are the press-release dates on the agency websites | That is when the information became public. | If an agency informed the issuer earlier, "early" market moves could be leakage rather than independent analysis. Discuss this in Chapter 12. |
+
+## Real-data construction (tools/build_real_dataset.py)
+
+| # | Assumption | Why | If wrong |
+|---|---|---|---|
+| A16 | Trades = NSE Corporate Bond Market daily bhavcopy; one record per ISIN per day (weighted average price and yield, total value) | The only free, official, daily, ISIN-level trade record found for 2018-2022 | Trades reported only on BSE are missing, so liquidity is understated |
+| A17 | Bond terms from NSE CBM security masters (Jan 2020 - Jun 2022 snapshots); each ISIN takes its issuer from the **earliest** snapshot | After the 2021 DHFL-Piramal merger old DHFL bonds appear under the Piramal name in later snapshots | Bonds that matured before Jan 2020 are not in any snapshot, so 2018-19 coverage of short bonds is lower |
+| A18 | Plain bonds only: fixed coupon > 0, Actual/365, no step-up, not floating, not tax-free (PF / 'TF'), not perpetual (DP), not zero-coupon (DC), not market-linked | The bond maths in engine/bond_math.py prices plain bullet bonds; tax-free yields are not comparable with taxable G-secs | Mis-classified bonds fail the yield check and are excluded from spreads |
+| A19 | Up to 3 bonds per stable issuer (most trading days) and up to 5 per downgraded issuer (most trading days within 400 days before to 60 days after its first downgrade); minimum 15 trading days | Use the most informative prices; the rule depends on rating dates only | A different selection could change individual episodes (see governance change log) |
+| A20 | G-sec curve = FBIL par yield, last published day of each week, semi-annual basis | Daily files are ~600 KB each; the engine uses the latest curve within 7 days | A curve up to 4 days old shifts a spread by a few bps on volatile days; spread *changes* around events are barely affected |
+| A21 | Rating actions read from the "rating history" table of CRISIL and CARE rationales; senior long-term instrument preferred (not perpetual / subordinated / Tier I-II); for CARE the release-date action is the worst current long-term rating | One consistent, documented instrument per issuer; an issuer with any long-term debt rated D is in default | Rows are machine-read: a sample must be checked against the saved rationales in data/raw/rationales/ |

@@ -1,0 +1,6 @@
+source_id,file,sha256,rows_read,rows_kept,ingested_at
+NSE02,data/raw/master/bond_master.csv,15c970cc5d973039199fac1046db9e79e79954fd7943f0fb26c9c92e6e0f32e3,47,47,2026-10-18T16:53:09
+NSE01,data/raw/trades/nse_cbm_trades.csv,8a1955a1fe21ba42796f3bb959e5744fd5860d33cebe14a09f2758a70fde26e2,5631,5631,2026-10-18T16:53:09
+FBIL01,data/raw/gsec/fbil_par_yield.csv,54402333a1dd140a9a5be26a2ff63bea3e332faa65600c4dd6e5da3f0d667ba8,34805,34805,2026-10-18T16:53:09
+CARE01,data/raw/ratings/care_rating_actions.csv,3dc4977648ee8901cc7e2a03e43470043693fad9604583910619383d9cd273c4,25,25,2026-10-18T16:53:09
+CRISIL01,data/raw/ratings/crisil_rating_actions.csv,8874e9c53f79d7f8baf09512f05fe2dafc3606372e91ba1f314f613ff7e2a863,200,200,2026-10-18T16:53:09

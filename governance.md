@@ -45,3 +45,13 @@ SpreadWatch is an academic tool. It measures whether corporate bond spreads move
 
 ## 7. Change log
 Record any change to `config.py` after real results were first seen, with the reason. Changing a window or threshold after seeing the answer without disclosing it is data dredging.
+
+### Change log entries (real-data build, 18 October 2026)
+| Date | What changed | Why | Effect |
+|---|---|---|---|
+| 18-Oct-2026 | First real run: bonds per issuer chosen by total trading days 2018-2022 (3 per issuer) | Initial rule | 2 of 5 downgrade episodes measurable -> verdict INSUFFICIENT DATA |
+| 18-Oct-2026 | **Bond selection changed** after the first run: for downgraded issuers, rank bonds on trading days in [first downgrade - 400 days, first downgrade + 60 days], up to 5 bonds | The first rule picked bonds that mostly traded *after* the downgrades, so the pre-event window had no data. The new rule uses rating dates only, not spread results | DHFL and Tata Motors episodes measurable; others still too thin |
+| 18-Oct-2026 | **Three issuers added** (Tata Motors Finance, PNB Housing Finance, ECL Finance) after the first run | Raise the number of measurable episodes; chosen because they were downgraded in 2019-20 AND are among the more traded issuers on NSE | 3 of 8 episodes measurable -> verdict PARTIAL |
+| 18-Oct-2026 | Test windows, z threshold, minimum observations, benchmark | **Not changed** at any point | - |
+
+Both changes affect *which data enter the study*, not *how the test is scored*. They are disclosed here and in Chapter 10.

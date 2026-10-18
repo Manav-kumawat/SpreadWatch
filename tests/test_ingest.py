@@ -86,3 +86,9 @@ def test_prepare_curve_combines_tenor_files(tmp_path):
     # and ingest understands the combined layout
     c = ingest.canonical_curve(w)
     assert sorted(c["tenor_years"].unique()) == [0.25, 1.0, 10.0]
+
+
+def test_iso_dates_are_not_read_day_first():
+    s = pd.Series(["2019-02-03", "03-02-2019", "03-Feb-2019", "2018-04-06"])
+    got = [str(d) for d in ingest.parse_dates(s)]
+    assert got == ["2019-02-03", "2019-02-03", "2019-02-03", "2018-04-06"]

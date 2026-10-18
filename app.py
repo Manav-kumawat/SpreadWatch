@@ -55,6 +55,24 @@ def curve_for(mode: str):
     return GsecCurve(pd.read_csv(data_dir(mode) / CURVE_FILE))
 
 
+def bad_demo(mode: str) -> pd.DataFrame:
+    """Six trades from the current dataset; rows 1-5 are broken on purpose, row 6 is left intact."""
+    if mode == "sample":
+        return pd.read_csv(SAMPLE_DIR / "bad_trades_demo.csv")
+    t = pd.read_csv(data_dir(mode) / "trades.csv")
+    ok = pd.read_csv(OUTPUT_DIR / mode / "trade_spreads.csv")
+    ok = ok[ok["yield_check"] == "PASS"]
+    passed = set(zip(ok["isin"], pd.to_datetime(ok["trade_date"]).dt.date.astype(str)))
+    t = t[[(i, str(d)) in passed for i, d in zip(t["isin"], pd.to_datetime(t["trade_date"]).dt.date)]]
+    t = t.sample(6, random_state=1).reset_index(drop=True)     # all six passed validation before breaking
+    t.loc[0, "maturity_date"] = "2010-01-01"                                  # matures before it trades
+    t.loc[1, "price"] = float(t.loc[1, "price"]) * 100                        # price per 10,000 instead of per 100
+    t.loc[2, "printed_yield_pct"] = float(t.loc[2, "printed_yield_pct"]) + 1.5  # printed yield 150 bps off
+    t.loc[3, "coupon_pct"] = -1                                               # impossible coupon
+    t.loc[4, "trade_date"] = "2031-02-30"                                     # not a date
+    return t
+
+
 def fmt(x, nd=1, suffix=""):
     try:
         return f"{float(x):,.{nd}f}{suffix}"
@@ -160,13 +178,16 @@ with tabs[1]:
             continue
         from engine.ratings import classify_action
         kind = classify_action(a["rating_from"], a["rating_to"])
-        col = RED if kind in ("downgrade", "default") else "green"
+        if kind not in ("downgrade", "default", "upgrade"):     # reaffirmations: faint, no label
+            fig.add_vline(x=pd.Timestamp(a["action_date"]), line_color=GREY, line_dash="dot", line_width=1, opacity=0.4)
+            continue
+        col = RED if kind != "upgrade" else "green"
         fig.add_vline(x=pd.Timestamp(a["action_date"]), line_color=col, line_dash="dash")
         fig.add_annotation(x=pd.Timestamp(a["action_date"]), y=1.02, yref="paper", showarrow=False,
                            text=f"{a['rating_from']}→{a['rating_to']}", font=dict(color=col, size=11))
     fig.update_layout(title=f"Spread over matched-tenor G-sec - {who}", yaxis_title="bps", height=460)
     st.plotly_chart(fig, width="stretch")
-    st.caption("Red dashed lines = downgrades, green = upgrades. Each point is the value-weighted spread of that day's trades.")
+    st.caption("Red dashed lines = downgrades, green = upgrades, faint dotted = reaffirmations. Each point is the value-weighted spread of that day's trades.")
     st.markdown("**Rating actions**")
     st.dataframe(acts, width="stretch", hide_index=True)
     st.markdown("**Measured episodes for this issuer**")
@@ -228,7 +249,7 @@ with tabs[3]:
     st.markdown("#### Check a trade file  (live failure demonstration)")
     up = st.file_uploader("Upload a trade CSV in the canonical format", type="csv")
     use_bad = st.button("…or load the deliberately broken demo file")
-    df_in = pd.read_csv(up) if up is not None else (pd.read_csv(SAMPLE_DIR / "bad_trades_demo.csv") if use_bad else None)
+    df_in = pd.read_csv(up) if up is not None else (bad_demo(mode) if use_bad else None)
     if df_in is not None:
         st.dataframe(df_in, width="stretch", hide_index=True)
         try:

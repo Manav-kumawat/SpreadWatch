@@ -1,0 +1,54 @@
+{
+  "mode": "real",
+  "synthetic": false,
+  "run_at": "2026-10-18T16:53:13",
+  "n_trades_input": 5631,
+  "n_trades_used": 5243,
+  "n_trades_rejected": 388,
+  "n_issuers": 14,
+  "n_rating_actions": 225,
+  "period": [
+    "2018-01-01",
+    "2022-06-30"
+  ],
+  "cohorts": 6,
+  "validation": {
+    "n_checked": 5242,
+    "n_pass": 4766,
+    "pass_rate": 0.9091949637542922,
+    "tolerance_bps": 5.0,
+    "mean_abs_diff_bps": 4.217486329062559,
+    "median_abs_diff_bps": 0.2661521532537847,
+    "p95_abs_diff_bps": 9.099519512246488,
+    "max_abs_diff_bps": 4343.134775831015
+  },
+  "tolerance_bps": 5.0,
+  "event_study": {
+    "n_events_total": 8,
+    "n_events_usable": 3,
+    "n_placebo_usable": 28,
+    "mean_dS_pre_bps": 100.25819848054157,
+    "median_dS_pre_bps": 144.42962849992503,
+    "share_events_widened": 1.0,
+    "t_stat": 2.2205924059329707,
+    "t_pvalue": 0.07826470807924685,
+    "wilcoxon_pvalue": 0.125,
+    "hit_rate": 0.6666666666666666,
+    "median_lead_days": 61.5,
+    "median_pre_share": 0.4536280404975222,
+    "placebo_mean_dS_pre_bps": -35.33196352463022,
+    "false_alarm_rate": 0.0,
+    "mannwhitney_pvalue": 0.006896551724137931,
+    "fisher_pvalue": 0.0064516129032258064,
+    "verdict": "PARTIAL",
+    "verdict_reason": "one test is significant but not both - the evidence is mixed"
+  },
+  "sensitivity_verdicts": {
+    "base case": "PARTIAL",
+    "pre-window 60 days": "PARTIAL",
+    "pre-window 14 days": "INSUFFICIENT DATA",
+    "threshold 1.5 sd": "PARTIAL",
+    "threshold 2.5 sd": "PARTIAL",
+    "no benchmark (raw spread)": "PARTIAL"
+  }
+}

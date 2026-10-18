@@ -64,6 +64,19 @@ RATING_ALIASES = {
 FREQ_WORDS = {"annual": 1, "yearly": 1, "semi": 2, "half": 2, "quarter": 4, "month": 12}
 
 
+
+def parse_dates(s: pd.Series) -> pd.Series:
+    """
+    ISO dates (2019-02-03) are read as year-month-day; everything else
+    (03-02-2019, 03/02/2019, 03-Feb-2019) as day-first, the Indian convention.
+    Reading ISO dates day-first would silently swap day and month.
+    """
+    txt = s.astype(str).str.strip()
+    iso = pd.to_datetime(txt, format="%Y-%m-%d", errors="coerce")
+    rest = pd.to_datetime(txt.where(iso.isna()), dayfirst=True, errors="coerce", format="mixed")
+    return iso.fillna(rest).dt.date
+
+
 class ProvenanceError(RuntimeError):
     pass
 
@@ -135,7 +148,7 @@ def canonical_curve(df: pd.DataFrame) -> pd.DataFrame:
         out = df.melt(id_vars="date", value_vars=list(tenor_cols), var_name="tenor", value_name="yield_pct")
         out["tenor_years"] = out["tenor"].map(tenor_cols)
         out = out.drop(columns="tenor")
-    out["date"] = pd.to_datetime(out["date"], dayfirst=True, errors="coerce").dt.date
+    out["date"] = parse_dates(out["date"])
     out["yield_pct"] = pd.to_numeric(out["yield_pct"], errors="coerce")
     return out.dropna()
 
@@ -144,7 +157,7 @@ def canonical_trades(df: pd.DataFrame) -> pd.DataFrame:
     df = rename_by_alias(df, TRADE_ALIASES)
     for c in ["trade_date", "maturity_date"]:
         if c in df.columns:
-            df[c] = pd.to_datetime(df[c], dayfirst=True, errors="coerce").dt.date
+            df[c] = parse_dates(df[c])
     if "coupon_freq" in df.columns and df["coupon_freq"].dtype == object:
         def f(v):
             s = str(v).lower()
@@ -166,7 +179,7 @@ def canonical_ratings(df: pd.DataFrame) -> pd.DataFrame:
     miss = [c for c in need if c not in df.columns]
     if miss:
         raise ValueError(f"rating file missing columns {miss}")
-    df["action_date"] = pd.to_datetime(df["action_date"], dayfirst=True, errors="coerce").dt.date
+    df["action_date"] = parse_dates(df["action_date"])
     for c in ["rating_from", "instrument", "outlook", "url"]:
         if c not in df.columns:
             df[c] = ""

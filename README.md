@@ -17,7 +17,7 @@ SpreadWatch prices every reported corporate bond trade. It recomputes the yield 
 python3.10 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 
-python -m pytest                       # 58 hand-worked tests - all must pass
+python -m pytest                       # 59 hand-worked tests - all must pass
 python ingest.py --mode sample         # registers / builds the SYNTHETIC sample
 python run_pipeline.py --mode sample   # runs the engine -> outputs/sample/
 python report.py --mode sample         # annexure HTML + figures
@@ -65,6 +65,29 @@ engine/
 tests/               hand-worked examples (open the docstrings - each has the arithmetic)
 make_sample_data.py  SYNTHETIC data generator (for development and the demo only)
 ```
+
+## Real data (built 18 October 2026)
+
+All real inputs were downloaded by the scripts in `tools/` from official public sources. Each one is logged in `sources.csv`, and the download logs are in `data/raw/original/*/download_log.csv`:
+
+| Input | Source | Script |
+|---|---|---|
+| Bond trades 2018-2022 (daily bhavcopy) and bond terms (security master) | NSE Corporate Bond Market archives | `tools/fetch_nse_cbm.py`, `tools/build_real_dataset.py` |
+| G-sec par yield curve, weekly, Apr 2018 - Jun 2022 | FBIL | `tools/fetch_fbil_gsec.py` |
+| Rating actions | CRISIL and CARE rationales (copies in `data/raw/rationales/`) | `tools/crisil_history.py`, `tools/care_history.py` |
+
+To rebuild everything from the internet:
+
+```bash
+python tools/fetch_nse_cbm.py --start 2018-01-01 --end 2022-06-30 --master-dates 2020-01-02 2020-06-01 2021-01-04 2021-06-01 2022-01-03 2022-06-01
+python tools/fetch_fbil_gsec.py --start 2018-03-31 --end 2022-06-30 --every week
+python tools/crisil_history.py --list tools/crisil_docs.csv
+python tools/care_history.py --list tools/care_docs.csv
+python tools/build_real_dataset.py
+python ingest.py --mode real && python run_pipeline.py --mode real && python report.py --mode real
+```
+
+The untouched downloads (about 140 MB) are kept out of git; only their download logs are committed. Choices made after the first real run are recorded in `governance.md` (change log).
 
 ## About the synthetic sample
 

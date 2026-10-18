@@ -1,0 +1,48 @@
+isin,issuer,coupon_pct,maturity_date,coupon_freq,nse_description,trade_days,liquidity_score,master_file
+INE202B07IO3,Dewan Housing Finance Corporation Ltd,9.25,2023-09-09,1.0,DEWAN HSGFIN 9.25% 2023,97,73,Corporate_bond_report_02-Jan-2020.csv
+INE202B07IY2,Dewan Housing Finance Corporation Ltd,8.9,2021-06-04,1.0,Dewan Housing 8.90% 2021 S I,102,69,Corporate_bond_report_02-Jan-2020.csv
+INE202B07JA0,Dewan Housing Finance Corporation Ltd,9.0,2023-06-04,1.0,Dewan Housing 9.00% 2023 S II,69,57,Corporate_bond_report_02-Jan-2020.csv
+INE202B07HV0,Dewan Housing Finance Corporation Ltd,9.3,2026-08-16,1.0,DEWAN HSG 9.30% 2026 (Sr.6B),60,49,Corporate_bond_report_02-Jan-2020.csv
+INE202B07IN5,Dewan Housing Finance Corporation Ltd,9.05,2023-09-09,1.0,DEWAN HSGFIN 9.05% 23S3A,52,44,Corporate_bond_report_02-Jan-2020.csv
+INE804I079Y6,ECL Finance Ltd,9.85,2028-08-06,1.0,ECL Fin 9.85% Sr-VII 2028,118,20,Corporate_bond_report_02-Jan-2020.csv
+INE804I074Y7,ECL Finance Ltd,9.45,2021-08-06,1.0,ECL Fin 9.45% Sr-II  2021,68,12,Corporate_bond_report_02-Jan-2020.csv
+INE001A07RS3,Housing Development Finance Corporation Ltd,8.58,2022-03-18,1.0,HDFC 8.58% 2022 (V-003),249,249,Corporate_bond_report_02-Jan-2020.csv
+INE001A07RN4,Housing Development Finance Corporation Ltd,8.7,2020-12-15,1.0,HDFC 8.70% 2020 (Series U-008),246,246,Corporate_bond_report_02-Jan-2020.csv
+INE001A07RK0,Housing Development Finance Corporation Ltd,9.0,2028-11-29,1.0,HDFC 9% 2028 (Series U-005),208,208,Corporate_bond_report_02-Jan-2020.csv
+INE148I07GE8,Indiabulls Housing Finance Ltd,8.75,2021-09-26,1.0,INDIABULLS HSGFIN 8.75% 2021,176,24,Corporate_bond_report_02-Jan-2020.csv
+INE148I07JG7,Indiabulls Housing Finance Ltd,8.75,2020-02-21,1.0,Indiabulls Hsg 8.75% 20 L005,24,22,Corporate_bond_report_02-Jan-2020.csv
+INE148I08215,Indiabulls Housing Finance Ltd,9.3,2026-06-29,1.0,INDIABULLS HSG FIN 9.30% 2026,137,15,Corporate_bond_report_02-Jan-2020.csv
+INE148I07IL9,Indiabulls Housing Finance Ltd,8.0,2021-07-09,1.0,INDIABULLS HSG 8% 2021 K4 O3,18,9,Corporate_bond_report_02-Jan-2020.csv
+INE148I08280,Indiabulls Housing Finance Ltd,8.35,2024-09-06,1.0,Indiabulls HFin. 8.35% 24 S-I,15,9,Corporate_bond_report_02-Jan-2020.csv
+INE053F07AY7,Indian Railway Finance Corporation Ltd,8.45,2028-12-04,1.0,Indian Rail Fin 8.45% 28S-129,177,177,Corporate_bond_report_02-Jan-2020.csv
+INE053F07CQ9,Indian Railway Finance Corporation Ltd,6.73,2035-07-06,1.0,IRFCL 6.73% 2035 Sr 151,167,167,Corporate_bond_report_04-Jan-2021.csv
+INE053F07AK6,Indian Railway Finance Corporation Ltd,7.65,2021-03-15,1.0,Indian Rly Fin 7.65% 21 S-127,162,162,Corporate_bond_report_02-Jan-2020.csv
+INE115A07OB4,LIC Housing Finance Ltd,8.7,2029-03-23,1.0,LIC Hsg Fin Ltd 8.70% 29 T 382,255,255,Corporate_bond_report_02-Jan-2020.csv
+INE115A07OF5,LIC Housing Finance Ltd,7.99,2029-07-12,1.0,LICH 7.99% 2029 Tranche 386,164,164,Corporate_bond_report_02-Jan-2020.csv
+INE115A07NP6,LIC Housing Finance Ltd,8.75,2028-12-08,1.0,LIC Housing 8.75%28Tr372Opt II,158,158,Corporate_bond_report_02-Jan-2020.csv
+INE572E09411,PNB Housing Finance Ltd,7.46,2020-04-30,2.0,PNBHF 7.46% 2020 Sr-XXXI,25,13,Corporate_bond_report_02-Jan-2020.csv
+INE572E09619,PNB Housing Finance Ltd,9.0,2022-08-30,1.0,PNB Hsg 9% 2022 O B,54,13,Corporate_bond_report_02-Jan-2020.csv
+INE572E09486,PNB Housing Finance Ltd,7.59,2022-07-27,1.0,PNB HF Ltd. 7.59% 2022 Sr- B,47,10,Corporate_bond_report_02-Jan-2020.csv
+INE572E09478,PNB Housing Finance Ltd,7.5,2020-09-15,1.0,PNB HF Ltd. 7.50% 2020 Sr-A,35,9,Corporate_bond_report_02-Jan-2020.csv
+INE572E09361,PNB Housing Finance Ltd,8.47,2021-07-01,2.0,PNB HSGFIN8.47% 21S-XXVIII OA,49,9,Corporate_bond_report_02-Jan-2020.csv
+INE641O08035,Piramal Capital & Housing Finance Ltd,9.55,2027-03-08,1.0,Piramal Finance 9.55% 2027,80,8,Corporate_bond_report_02-Jan-2020.csv
+INE134E08JX9,Power Finance Corporation Ltd,9.1,2029-03-23,1.0,Power Fin 9.10% 29 S 184-B,272,272,Corporate_bond_report_02-Jan-2020.csv
+INE134E08JD1,Power Finance Corporation Ltd,7.1,2022-08-08,1.0,Power  Fin Ltd 7.10% 2022S169A,245,245,Corporate_bond_report_02-Jan-2020.csv
+INE134E08JP5,Power Finance Corporation Ltd,7.85,2028-04-03,2.0,Power Finance 7.85% 2028 177,227,227,Corporate_bond_report_02-Jan-2020.csv
+INE020B08BP9,REC Ltd,8.97,2029-03-28,1.0,RECL 8.97% 2029 (Series -175),319,319,Corporate_bond_report_02-Jan-2020.csv
+INE020B08BG8,REC Ltd,8.56,2028-11-29,2.0,RECL 8.56% 2028 (Series-168),202,202,Corporate_bond_report_02-Jan-2020.csv
+INE020B08AP1,REC Ltd,7.45,2022-11-30,1.0,RECL 7.45% 2022 (S155),182,182,Corporate_bond_report_02-Jan-2020.csv
+INE002A08476,Reliance Industries Ltd,7.0,2022-08-31,1.0,RIL 7.00% 22 (RIL 2022 PPD SA),291,291,Corporate_bond_report_02-Jan-2020.csv
+INE002A08500,Reliance Industries Ltd,7.17,2022-11-08,1.0,RIL 7.17% 2022  PPD S-D,279,279,Corporate_bond_report_02-Jan-2020.csv
+INE002A08575,Reliance Industries Ltd,8.3,2022-03-08,1.0,RIL 8.30% 2022 (PPD-Series-J),271,271,Corporate_bond_report_02-Jan-2020.csv
+INE909H08204,Tata Motors Finance Ltd,10.35,2024-09-26,1.0,SHEBA PROP 10.35% 24T2 B201415,37,22,Corporate_bond_report_02-Jan-2020.csv
+INE601U08010,Tata Motors Finance Ltd,8.35,2027-11-13,1.0,Tata MotFin 8.35% 27(SR17-18),74,15,Corporate_bond_report_02-Jan-2020.csv
+INE909H08212,Tata Motors Finance Ltd,9.7,2024-12-19,1.0,SHEBA PROP 9.70% 24 T2 C201415,30,5,Corporate_bond_report_02-Jan-2020.csv
+INE155A08316,Tata Motors Ltd,7.5,2021-10-20,1.0,TATA MOTORS 7.50% 21 SR 27E,32,15,Corporate_bond_report_02-Jan-2020.csv
+INE155A08365,Tata Motors Ltd,7.4,2021-06-29,1.0,TATA MOT 7.40% 2021S-E 27 I T2,27,14,Corporate_bond_report_02-Jan-2020.csv
+INE155A08225,Tata Motors Ltd,9.73,2020-10-01,1.0,TATA MOTRS 9.73% 2020 E26-DOII,17,11,Corporate_bond_report_02-Jan-2020.csv
+INE155A08340,Tata Motors Ltd,7.5,2022-06-22,1.0,Tata Motors 7.50% 22 Sr-E 27 H,30,5,Corporate_bond_report_02-Jan-2020.csv
+INE155A08282,Tata Motors Ltd,8.4,2021-05-26,1.0,TATA MOTORS 8.40% 2021E 27B,17,3,Corporate_bond_report_02-Jan-2020.csv
+INE669E08284,Vodafone Idea Ltd,8.04,2022-01-27,1.0,IDEA CELLULAR 8.04% 2022,18,15,Corporate_bond_report_02-Jan-2020.csv
+INE669E08292,Vodafone Idea Ltd,8.03,2022-01-31,1.0,IDEA CELLULAR 8.03% 2022,33,8,Corporate_bond_report_02-Jan-2020.csv
+INE669E08300,Vodafone Idea Ltd,8.03,2022-02-14,1.0,Idea Cellular 8.03% 2022,16,1,Corporate_bond_report_02-Jan-2020.csv

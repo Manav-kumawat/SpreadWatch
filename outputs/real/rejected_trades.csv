@@ -1,0 +1,389 @@
+trade_date,isin,price,printed_yield_pct,value_cr,source_id,issuer,coupon_pct,coupon_freq,maturity_date,reject_reason
+2019-03-27,INE134E08JD1,97.34,97.34,1.1,NSE01,Power Finance Corporation Ltd,7.1,1,2022-08-08,printed yield outside -5%..60%
+2020-06-02,INE148I08215,11.0,95.82,0.9,NSE01,Indiabulls Housing Finance Ltd,9.3,1,2026-06-29,price outside 20-200 per 100 face (likely unit error)
+2020-06-03,INE202B07HV0,20.125,83.6675,20.0,NSE01,Dewan Housing Finance Corporation Ltd,9.3,1,2026-08-16,printed yield outside -5%..60%
+2020-06-17,INE202B07HV0,21.285,80.4653,40.0,NSE01,Dewan Housing Finance Corporation Ltd,9.3,1,2026-08-16,printed yield outside -5%..60%
+2021-03-31,INE202B07HV0,33.75,99.99,5.0,NSE01,Dewan Housing Finance Corporation Ltd,9.3,1,2026-08-16,printed yield outside -5%..60%
+2021-07-14,INE202B07HV0,36.0,99.99,5.0,NSE01,Dewan Housing Finance Corporation Ltd,9.3,1,2026-08-16,printed yield outside -5%..60%
+2020-06-22,INE202B07IN5,24.1,80.477,20.0,NSE01,Dewan Housing Finance Corporation Ltd,9.05,1,2023-09-09,printed yield outside -5%..60%
+2020-07-30,INE202B07IN5,22.8,87.6443,30.0,NSE01,Dewan Housing Finance Corporation Ltd,9.05,1,2023-09-09,printed yield outside -5%..60%
+2021-03-04,INE202B07IN5,25.5,72.0,1.0,NSE01,Dewan Housing Finance Corporation Ltd,9.05,1,2023-09-09,printed yield outside -5%..60%
+2021-03-10,INE202B07IN5,33.775,99.99,50.0,NSE01,Dewan Housing Finance Corporation Ltd,9.05,1,2023-09-09,printed yield outside -5%..60%
+2021-03-31,INE202B07IN5,33.75,99.99,30.001,NSE01,Dewan Housing Finance Corporation Ltd,9.05,1,2023-09-09,printed yield outside -5%..60%
+2021-05-05,INE202B07IN5,32.1667,99.9933,3.0,NSE01,Dewan Housing Finance Corporation Ltd,9.05,1,2023-09-09,printed yield outside -5%..60%
+2019-06-11,INE202B07IO3,23.0308,67.1987,50.0,NSE01,Dewan Housing Finance Corporation Ltd,9.25,1,2023-09-09,printed yield outside -5%..60%
+2020-02-04,INE202B07IO3,25.0,71.2545,36.0,NSE01,Dewan Housing Finance Corporation Ltd,9.25,1,2023-09-09,printed yield outside -5%..60%
+2020-02-14,INE202B07IO3,24.0,74.14,1.9033,NSE01,Dewan Housing Finance Corporation Ltd,9.25,1,2023-09-09,printed yield outside -5%..60%
+2020-02-20,INE202B07IO3,24.0,74.4455,3.0,NSE01,Dewan Housing Finance Corporation Ltd,9.25,1,2023-09-09,printed yield outside -5%..60%
+2020-03-02,INE202B07IO3,25.0,84.53,2.8,NSE01,Dewan Housing Finance Corporation Ltd,9.25,1,2023-09-09,printed yield outside -5%..60%
+2020-03-05,INE202B07IO3,25.0,72.6245,1.9612,NSE01,Dewan Housing Finance Corporation Ltd,9.25,1,2023-09-09,printed yield outside -5%..60%
+2020-03-16,INE202B07IO3,22.0,80.9539,8.0,NSE01,Dewan Housing Finance Corporation Ltd,9.25,1,2023-09-09,printed yield outside -5%..60%
+2020-03-19,INE202B07IO3,22.0,81.2214,3.2752999999999997,NSE01,Dewan Housing Finance Corporation Ltd,9.25,1,2023-09-09,printed yield outside -5%..60%
+2020-03-23,INE202B07IO3,22.0,81.3299,5.0585,NSE01,Dewan Housing Finance Corporation Ltd,9.25,1,2023-09-09,printed yield outside -5%..60%
+2020-05-18,INE202B07IO3,10.0,145.5032,10.0,NSE01,Dewan Housing Finance Corporation Ltd,9.25,1,2023-09-09,price outside 20-200 per 100 face (likely unit error)
+2020-05-29,INE202B07IO3,19.0,99.99,10.0,NSE01,Dewan Housing Finance Corporation Ltd,9.25,1,2023-09-09,price outside 20-200 per 100 face (likely unit error)
+2020-07-09,INE202B07IO3,23.05,99.99,595.9,NSE01,Dewan Housing Finance Corporation Ltd,9.25,1,2023-09-09,printed yield outside -5%..60%
+2020-12-14,INE202B07IO3,26.8896,85.2723,7.6,NSE01,Dewan Housing Finance Corporation Ltd,9.25,1,2023-09-09,printed yield outside -5%..60%
+2021-02-01,INE202B07IO3,33.275,72.6523,250.0,NSE01,Dewan Housing Finance Corporation Ltd,9.25,1,2023-09-09,printed yield outside -5%..60%
+2021-05-17,INE202B07IO3,28.0,96.03,0.4,NSE01,Dewan Housing Finance Corporation Ltd,9.25,1,2023-09-09,printed yield outside -5%..60%
+2021-05-31,INE202B07IO3,34.0,80.8004,6.0,NSE01,Dewan Housing Finance Corporation Ltd,9.25,1,2023-09-09,printed yield outside -5%..60%
+2021-06-02,INE202B07IO3,34.57,79.5796,25.6444,NSE01,Dewan Housing Finance Corporation Ltd,9.25,1,2023-09-09,printed yield outside -5%..60%
+2021-07-06,INE202B07IO3,36.0,78.79,0.3332,NSE01,Dewan Housing Finance Corporation Ltd,9.25,1,2023-09-09,printed yield outside -5%..60%
+2019-06-27,INE202B07IY2,39.9407,78.64,50.0,NSE01,Dewan Housing Finance Corporation Ltd,8.9,1,2021-06-04,printed yield outside -5%..60%
+2019-07-03,INE202B07IY2,41.304,76.0945,75.0,NSE01,Dewan Housing Finance Corporation Ltd,8.9,1,2021-06-04,printed yield outside -5%..60%
+2019-07-23,INE202B07IY2,37.2842,88.53,35.0,NSE01,Dewan Housing Finance Corporation Ltd,8.9,1,2021-06-04,printed yield outside -5%..60%
+2019-07-30,INE202B07IY2,38.6139,85.6878,50.0,NSE01,Dewan Housing Finance Corporation Ltd,8.9,1,2021-06-04,printed yield outside -5%..60%
+2019-08-01,INE202B07IY2,37.5653,88.8345,25.0,NSE01,Dewan Housing Finance Corporation Ltd,8.9,1,2021-06-04,printed yield outside -5%..60%
+2019-08-05,INE202B07IY2,34.995,97.0897,25.0,NSE01,Dewan Housing Finance Corporation Ltd,8.9,1,2021-06-04,printed yield outside -5%..60%
+2019-08-13,INE202B07IY2,34.6499,99.6414,60.0,NSE01,Dewan Housing Finance Corporation Ltd,8.9,1,2021-06-04,printed yield outside -5%..60%
+2019-12-17,INE202B07IY2,20.564,99.7642,43.8428,NSE01,Dewan Housing Finance Corporation Ltd,8.9,1,2021-06-04,printed yield outside -5%..60%
+2019-12-30,INE202B07IY2,21.6435,213.779,2.0,NSE01,Dewan Housing Finance Corporation Ltd,8.9,1,2021-06-04,printed yield outside -5%..60%
+2020-01-16,INE202B07IY2,20.0571,243.3526,137.8,NSE01,Dewan Housing Finance Corporation Ltd,8.9,1,2021-06-04,printed yield outside -5%..60%
+2020-01-20,INE202B07IY2,21.145,231.5964,100.0,NSE01,Dewan Housing Finance Corporation Ltd,8.9,1,2021-06-04,printed yield outside -5%..60%
+2020-01-23,INE202B07IY2,26.75,185.1725,25.0,NSE01,Dewan Housing Finance Corporation Ltd,8.9,1,2021-06-04,printed yield outside -5%..60%
+2020-01-31,INE202B07IY2,20.1223,254.06,339.0,NSE01,Dewan Housing Finance Corporation Ltd,8.9,1,2021-06-04,printed yield outside -5%..60%
+2020-02-10,INE202B07IY2,26.895,192.8407,262.5,NSE01,Dewan Housing Finance Corporation Ltd,8.9,1,2021-06-04,printed yield outside -5%..60%
+2020-02-13,INE202B07IY2,20.9442,252.2949,87.5,NSE01,Dewan Housing Finance Corporation Ltd,8.9,1,2021-06-04,printed yield outside -5%..60%
+2020-02-14,INE202B07IY2,21.4141,249.6259,350.0,NSE01,Dewan Housing Finance Corporation Ltd,8.9,1,2021-06-04,printed yield outside -5%..60%
+2020-05-08,INE202B07IY2,15.25,518.3917,128.0,NSE01,Dewan Housing Finance Corporation Ltd,8.9,1,2021-06-04,price outside 20-200 per 100 face (likely unit error)
+2020-05-29,INE202B07IY2,19.0,99.99,20.0,NSE01,Dewan Housing Finance Corporation Ltd,8.9,1,2021-06-04,price outside 20-200 per 100 face (likely unit error)
+2020-06-03,INE202B07IY2,19.8569,99.9999,6.0,NSE01,Dewan Housing Finance Corporation Ltd,8.9,1,2021-06-04,price outside 20-200 per 100 face (likely unit error)
+2020-07-15,INE202B07IY2,22.2054,417.3319,150.0,NSE01,Dewan Housing Finance Corporation Ltd,8.9,1,2021-06-04,printed yield outside -5%..60%
+2020-07-17,INE202B07IY2,19.86,100.0,60.0,NSE01,Dewan Housing Finance Corporation Ltd,8.9,1,2021-06-04,price outside 20-200 per 100 face (likely unit error)
+2020-07-29,INE202B07IY2,30.0,291.37,0.3,NSE01,Dewan Housing Finance Corporation Ltd,8.9,1,2021-06-04,printed yield outside -5%..60%
+2020-07-30,INE202B07IY2,22.4156,114.213,32.4,NSE01,Dewan Housing Finance Corporation Ltd,8.9,1,2021-06-04,printed yield outside -5%..60%
+2020-08-03,INE202B07IY2,20.3794,99.99,30.0,NSE01,Dewan Housing Finance Corporation Ltd,8.9,1,2021-06-04,printed yield outside -5%..60%
+2020-08-12,INE202B07IY2,20.6932,477.0,1699.7,NSE01,Dewan Housing Finance Corporation Ltd,8.9,1,2021-06-04,printed yield outside -5%..60%
+2020-08-19,INE202B07IY2,21.1636,99.99,60.0,NSE01,Dewan Housing Finance Corporation Ltd,8.9,1,2021-06-04,printed yield outside -5%..60%
+2020-08-26,INE202B07IY2,21.1636,99.99,30.0,NSE01,Dewan Housing Finance Corporation Ltd,8.9,1,2021-06-04,printed yield outside -5%..60%
+2020-11-06,INE202B07IY2,23.0,99.99,703.0,NSE01,Dewan Housing Finance Corporation Ltd,8.9,1,2021-06-04,printed yield outside -5%..60%
+2020-11-12,INE202B07IY2,24.0,99.99,7.4,NSE01,Dewan Housing Finance Corporation Ltd,8.9,1,2021-06-04,printed yield outside -5%..60%
+2020-11-19,INE202B07IY2,24.0,99.99,285.0,NSE01,Dewan Housing Finance Corporation Ltd,8.9,1,2021-06-04,printed yield outside -5%..60%
+2021-03-31,INE202B07IY2,32.37,99.99,35.0,NSE01,Dewan Housing Finance Corporation Ltd,8.9,1,2021-06-04,printed yield outside -5%..60%
+2021-05-03,INE202B07IY2,32.01,99.0,31.0,NSE01,Dewan Housing Finance Corporation Ltd,8.9,1,2021-06-04,printed yield outside -5%..60%
+2020-02-10,INE202B07JA0,26.895,71.078,219.81,NSE01,Dewan Housing Finance Corporation Ltd,9.0,1,2023-06-04,printed yield outside -5%..60%
+2020-02-13,INE202B07JA0,20.8745,87.5873,73.27,NSE01,Dewan Housing Finance Corporation Ltd,9.0,1,2023-06-04,printed yield outside -5%..60%
+2020-07-14,INE202B07JA0,22.7424,93.7264,50.0,NSE01,Dewan Housing Finance Corporation Ltd,9.0,1,2023-06-04,printed yield outside -5%..60%
+2020-07-17,INE202B07JA0,20.0,70.4984,89.2,NSE01,Dewan Housing Finance Corporation Ltd,9.0,1,2023-06-04,printed yield outside -5%..60%
+2020-11-12,INE202B07JA0,24.0,99.99,1.5,NSE01,Dewan Housing Finance Corporation Ltd,9.0,1,2023-06-04,printed yield outside -5%..60%
+2020-12-14,INE202B07JA0,25.2048,98.3474,30.0,NSE01,Dewan Housing Finance Corporation Ltd,9.0,1,2023-06-04,printed yield outside -5%..60%
+2021-03-24,INE202B07JA0,29.0,87.6913,17.869500000000002,NSE01,Dewan Housing Finance Corporation Ltd,9.0,1,2023-06-04,printed yield outside -5%..60%
+2021-03-25,INE202B07JA0,29.0,87.6913,17.869500000000002,NSE01,Dewan Housing Finance Corporation Ltd,9.0,1,2023-06-04,printed yield outside -5%..60%
+2021-03-31,INE202B07JA0,32.1989,99.99,22.0,NSE01,Dewan Housing Finance Corporation Ltd,9.0,1,2023-06-04,printed yield outside -5%..60%
+2018-01-04,INE002A08476,97.2315,7.7095,115.0,NSE01,Reliance Industries Ltd,7.0,1,2022-08-31,no G-sec curve on or before 2018-01-04
+2018-01-05,INE002A08476,97.3789,7.67,55.0,NSE01,Reliance Industries Ltd,7.0,1,2022-08-31,no G-sec curve on or before 2018-01-05
+2018-01-08,INE002A08476,97.3857,7.67,25.0,NSE01,Reliance Industries Ltd,7.0,1,2022-08-31,no G-sec curve on or before 2018-01-08
+2018-01-09,INE002A08476,97.3258,7.6867,150.0,NSE01,Reliance Industries Ltd,7.0,1,2022-08-31,no G-sec curve on or before 2018-01-09
+2018-01-10,INE002A08476,97.0913,7.75,25.0,NSE01,Reliance Industries Ltd,7.0,1,2022-08-31,no G-sec curve on or before 2018-01-10
+2018-01-11,INE002A08476,97.0913,7.75,25.0,NSE01,Reliance Industries Ltd,7.0,1,2022-08-31,no G-sec curve on or before 2018-01-11
+2018-01-23,INE002A08476,97.255,7.71,65.0,NSE01,Reliance Industries Ltd,7.0,1,2022-08-31,no G-sec curve on or before 2018-01-23
+2018-01-31,INE002A08476,96.9339,7.8,295.0,NSE01,Reliance Industries Ltd,7.0,1,2022-08-31,no G-sec curve on or before 2018-01-31
+2018-02-01,INE002A08476,96.9447,7.797,40.0,NSE01,Reliance Industries Ltd,7.0,1,2022-08-31,no G-sec curve on or before 2018-02-01
+2018-02-02,INE002A08476,96.429,7.94,50.0,NSE01,Reliance Industries Ltd,7.0,1,2022-08-31,no G-sec curve on or before 2018-02-02
+2018-02-05,INE002A08476,96.8691,7.82,75.0,NSE01,Reliance Industries Ltd,7.0,1,2022-08-31,no G-sec curve on or before 2018-02-05
+2018-02-06,INE002A08476,96.6531,7.8773,110.0,NSE01,Reliance Industries Ltd,7.0,1,2022-08-31,no G-sec curve on or before 2018-02-06
+2018-02-20,INE002A08476,96.6986,7.8728,200.0,NSE01,Reliance Industries Ltd,7.0,1,2022-08-31,no G-sec curve on or before 2018-02-20
+2018-02-22,INE002A08476,96.4215,7.95,25.0,NSE01,Reliance Industries Ltd,7.0,1,2022-08-31,no G-sec curve on or before 2018-02-22
+2018-02-23,INE002A08476,96.4284,7.95,50.0,NSE01,Reliance Industries Ltd,7.0,1,2022-08-31,no G-sec curve on or before 2018-02-23
+2018-03-07,INE002A08476,95.7697,8.14,10.0,NSE01,Reliance Industries Ltd,7.0,1,2022-08-31,no G-sec curve on or before 2018-03-07
+2018-03-08,INE002A08476,96.0716,8.06,55.0,NSE01,Reliance Industries Ltd,7.0,1,2022-08-31,no G-sec curve on or before 2018-03-08
+2018-03-12,INE002A08476,96.3126,7.99,85.0,NSE01,Reliance Industries Ltd,7.0,1,2022-08-31,no G-sec curve on or before 2018-03-12
+2018-03-15,INE002A08476,96.4723,7.93,120.0,NSE01,Reliance Industries Ltd,7.0,1,2022-08-31,no G-sec curve on or before 2018-03-15
+2018-03-16,INE002A08476,96.6799,7.89,20.0,NSE01,Reliance Industries Ltd,7.0,1,2022-08-31,no G-sec curve on or before 2018-03-16
+2018-03-19,INE002A08476,96.691,7.891,275.0,NSE01,Reliance Industries Ltd,7.0,1,2022-08-31,no G-sec curve on or before 2018-03-19
+2018-03-20,INE002A08476,96.719,7.88,200.0,NSE01,Reliance Industries Ltd,7.0,1,2022-08-31,no G-sec curve on or before 2018-03-20
+2018-03-21,INE002A08476,96.5784,7.92,25.0,NSE01,Reliance Industries Ltd,7.0,1,2022-08-31,no G-sec curve on or before 2018-03-21
+2018-03-26,INE002A08476,96.7143,7.8843,80.0,NSE01,Reliance Industries Ltd,7.0,1,2022-08-31,no G-sec curve on or before 2018-03-26
+2018-03-27,INE002A08476,96.9142,7.8283,75.0,NSE01,Reliance Industries Ltd,7.0,1,2022-08-31,no G-sec curve on or before 2018-03-27
+2018-03-28,INE002A08476,97.1795,7.7542,20.0,NSE01,Reliance Industries Ltd,7.0,1,2022-08-31,no G-sec curve on or before 2018-03-28
+2018-04-03,INE002A08476,97.2741,7.7,115.0,NSE01,Reliance Industries Ltd,7.0,1,2022-08-31,no G-sec curve on or before 2018-04-03
+2018-04-04,INE002A08476,97.2335,7.7421,120.0,NSE01,Reliance Industries Ltd,7.0,1,2022-08-31,no G-sec curve on or before 2018-04-04
+2018-04-05,INE002A08476,97.4215,7.69,10.0,NSE01,Reliance Industries Ltd,7.0,1,2022-08-31,no G-sec curve on or before 2018-04-05
+2018-02-23,INE002A08500,96.7722,8.0,100.0,NSE01,Reliance Industries Ltd,7.17,1,2022-11-08,no G-sec curve on or before 2018-02-23
+2018-02-26,INE002A08500,96.7758,8.0,80.0,NSE01,Reliance Industries Ltd,7.17,1,2022-11-08,no G-sec curve on or before 2018-02-26
+2018-03-23,INE002A08500,96.8117,8.0,60.0,NSE01,Reliance Industries Ltd,7.17,1,2022-11-08,no G-sec curve on or before 2018-03-23
+2018-03-27,INE002A08500,97.552,7.8,10.0,NSE01,Reliance Industries Ltd,7.17,1,2022-11-08,no G-sec curve on or before 2018-03-27
+2018-01-03,INE020B08AP1,99.0475,7.68,0.9,NSE01,REC Ltd,7.45,1,2022-11-30,no G-sec curve on or before 2018-01-03
+2018-01-09,INE020B08AP1,99.0464,7.68,10.0,NSE01,REC Ltd,7.45,1,2022-11-30,no G-sec curve on or before 2018-01-09
+2018-01-10,INE020B08AP1,99.3,7.62,10.0,NSE01,REC Ltd,7.45,1,2022-11-30,no G-sec curve on or before 2018-01-10
+2018-01-11,INE020B08AP1,99.08,7.67,0.2,NSE01,REC Ltd,7.45,1,2022-11-30,no G-sec curve on or before 2018-01-11
+2018-01-12,INE020B08AP1,98.7715,7.75,50.0,NSE01,REC Ltd,7.45,1,2022-11-30,no G-sec curve on or before 2018-01-12
+2018-01-17,INE020B08AP1,99.0844,7.67,100.0,NSE01,REC Ltd,7.45,1,2022-11-30,no G-sec curve on or before 2018-01-17
+2018-01-18,INE020B08AP1,99.165,7.6475,2.0,NSE01,REC Ltd,7.45,1,2022-11-30,no G-sec curve on or before 2018-01-18
+2018-01-24,INE020B08AP1,99.05,7.68,0.1,NSE01,REC Ltd,7.45,1,2022-11-30,no G-sec curve on or before 2018-01-24
+2018-01-29,INE020B08AP1,98.9077,7.715,30.0,NSE01,REC Ltd,7.45,1,2022-11-30,no G-sec curve on or before 2018-01-29
+2018-01-31,INE020B08AP1,98.7377,7.7588,40.0,NSE01,REC Ltd,7.45,1,2022-11-30,no G-sec curve on or before 2018-01-31
+2018-02-01,INE020B08AP1,98.4024,7.845,40.0,NSE01,REC Ltd,7.45,1,2022-11-30,no G-sec curve on or before 2018-02-01
+2018-02-05,INE020B08AP1,98.2685,7.8809,160.0,NSE01,REC Ltd,7.45,1,2022-11-30,no G-sec curve on or before 2018-02-05
+2018-02-12,INE020B08AP1,98.7727,7.75,75.0,NSE01,REC Ltd,7.45,1,2022-11-30,no G-sec curve on or before 2018-02-12
+2018-02-16,INE020B08AP1,98.8589,7.7275,100.0,NSE01,REC Ltd,7.45,1,2022-11-30,no G-sec curve on or before 2018-02-16
+2018-02-22,INE020B08AP1,97.8576,7.99,25.0,NSE01,REC Ltd,7.45,1,2022-11-30,no G-sec curve on or before 2018-02-22
+2018-02-23,INE020B08AP1,97.9351,7.97,10.0,NSE01,REC Ltd,7.45,1,2022-11-30,no G-sec curve on or before 2018-02-23
+2018-03-09,INE020B08AP1,97.6833,8.0407,140.0,NSE01,REC Ltd,7.45,1,2022-11-30,no G-sec curve on or before 2018-03-09
+2018-03-19,INE020B08AP1,98.3439,7.8552,210.0,NSE01,REC Ltd,7.45,1,2022-11-30,no G-sec curve on or before 2018-03-19
+2018-03-21,INE020B08AP1,98.1472,7.9174,200.0,NSE01,REC Ltd,7.45,1,2022-11-30,no G-sec curve on or before 2018-03-21
+2018-03-23,INE020B08AP1,98.4689,7.831,2.0,NSE01,REC Ltd,7.45,1,2022-11-30,no G-sec curve on or before 2018-03-23
+2018-03-26,INE020B08AP1,98.6442,7.7877,1.2,NSE01,REC Ltd,7.45,1,2022-11-30,no G-sec curve on or before 2018-03-26
+2018-03-27,INE020B08AP1,98.5904,7.8,50.4,NSE01,REC Ltd,7.45,1,2022-11-30,no G-sec curve on or before 2018-03-27
+2018-03-28,INE020B08AP1,98.8204,7.74,200.0,NSE01,REC Ltd,7.45,1,2022-11-30,no G-sec curve on or before 2018-03-28
+2018-04-03,INE020B08AP1,98.8407,7.7347,150.0,NSE01,REC Ltd,7.45,1,2022-11-30,no G-sec curve on or before 2018-04-03
+2018-04-04,INE020B08AP1,98.9719,7.7,50.0,NSE01,REC Ltd,7.45,1,2022-11-30,no G-sec curve on or before 2018-04-04
+2018-05-28,INE020B08AP1,95.6728,8.62,5.3,NSE01,REC Ltd,7.45,1,2022-11-30,latest G-sec curve before 2018-05-28 is 2018-05-18 (> 7 days stale)
+2021-11-11,INE020B08AP1,102.9688,4.49,50.0,NSE01,REC Ltd,7.45,1,2022-11-30,latest G-sec curve before 2021-11-11 is 2021-11-03 (> 7 days stale)
+2022-04-21,INE020B08BP9,108.06,7.43,3.6,NSE01,REC Ltd,8.97,1,2029-03-28,latest G-sec curve before 2022-04-21 is 2022-04-13 (> 7 days stale)
+2018-02-16,INE053F07AK6,100.0,7.6863,495.0,NSE01,Indian Railway Finance Corporation Ltd,7.65,1,2021-03-15,no G-sec curve on or before 2018-02-16
+2018-02-20,INE053F07AK6,100.0,7.6834,307.0,NSE01,Indian Railway Finance Corporation Ltd,7.65,1,2021-03-15,no G-sec curve on or before 2018-02-20
+2018-02-21,INE053F07AK6,100.5685,7.6698,38.8,NSE01,Indian Railway Finance Corporation Ltd,7.65,1,2021-03-15,no G-sec curve on or before 2018-02-21
+2018-02-22,INE053F07AK6,100.0,7.6849,330.0,NSE01,Indian Railway Finance Corporation Ltd,7.65,1,2021-03-15,no G-sec curve on or before 2018-02-22
+2018-02-23,INE053F07AK6,100.0,7.6828,220.0,NSE01,Indian Railway Finance Corporation Ltd,7.65,1,2021-03-15,no G-sec curve on or before 2018-02-23
+2018-02-26,INE053F07AK6,99.8591,7.73,135.0,NSE01,Indian Railway Finance Corporation Ltd,7.65,1,2021-03-15,no G-sec curve on or before 2018-02-26
+2018-02-27,INE053F07AK6,99.8971,7.7231,50.0,NSE01,Indian Railway Finance Corporation Ltd,7.65,1,2021-03-15,no G-sec curve on or before 2018-02-27
+2018-02-28,INE053F07AK6,99.8533,7.7608,179.0,NSE01,Indian Railway Finance Corporation Ltd,7.65,1,2021-03-15,no G-sec curve on or before 2018-02-28
+2018-03-01,INE053F07AK6,99.8133,7.7527,120.0,NSE01,Indian Railway Finance Corporation Ltd,7.65,1,2021-03-15,no G-sec curve on or before 2018-03-01
+2018-03-05,INE053F07AK6,100.0,7.682,68.0,NSE01,Indian Railway Finance Corporation Ltd,7.65,1,2021-03-15,no G-sec curve on or before 2018-03-05
+2018-03-06,INE053F07AK6,100.0,7.68,55.0,NSE01,Indian Railway Finance Corporation Ltd,7.65,1,2021-03-15,no G-sec curve on or before 2018-03-06
+2018-03-07,INE053F07AK6,100.0,7.6816,90.0,NSE01,Indian Railway Finance Corporation Ltd,7.65,1,2021-03-15,no G-sec curve on or before 2018-03-07
+2018-03-08,INE053F07AK6,99.9001,7.7055,201.6,NSE01,Indian Railway Finance Corporation Ltd,7.65,1,2021-03-15,no G-sec curve on or before 2018-03-08
+2018-03-09,INE053F07AK6,99.9597,7.7,120.0,NSE01,Indian Railway Finance Corporation Ltd,7.65,1,2021-03-15,no G-sec curve on or before 2018-03-09
+2018-03-12,INE053F07AK6,99.9695,7.6953,43.0,NSE01,Indian Railway Finance Corporation Ltd,7.65,1,2021-03-15,no G-sec curve on or before 2018-03-12
+2018-03-13,INE053F07AK6,100.0013,7.68,28.5,NSE01,Indian Railway Finance Corporation Ltd,7.65,1,2021-03-15,no G-sec curve on or before 2018-03-13
+2018-03-14,INE053F07AK6,100.0388,7.65,200.0,NSE01,Indian Railway Finance Corporation Ltd,7.65,1,2021-03-15,no G-sec curve on or before 2018-03-14
+2018-03-15,INE053F07AK6,100.0877,7.6,667.6,NSE01,Indian Railway Finance Corporation Ltd,7.65,1,2021-03-15,no G-sec curve on or before 2018-03-15
+2018-03-16,INE053F07AK6,100.2152,7.5965,1.9,NSE01,Indian Railway Finance Corporation Ltd,7.65,1,2021-03-15,no G-sec curve on or before 2018-03-16
+2018-03-19,INE053F07AK6,100.0,7.68,75.0,NSE01,Indian Railway Finance Corporation Ltd,7.65,1,2021-03-15,no G-sec curve on or before 2018-03-19
+2018-03-21,INE053F07AK6,99.8668,7.7313,28.0,NSE01,Indian Railway Finance Corporation Ltd,7.65,1,2021-03-15,no G-sec curve on or before 2018-03-21
+2018-03-22,INE053F07AK6,100.3027,7.55,159.0,NSE01,Indian Railway Finance Corporation Ltd,7.65,1,2021-03-15,no G-sec curve on or before 2018-03-22
+2018-03-23,INE053F07AK6,100.3302,7.55,92.1,NSE01,Indian Railway Finance Corporation Ltd,7.65,1,2021-03-15,no G-sec curve on or before 2018-03-23
+2018-03-26,INE053F07AK6,100.0986,7.545,65.0,NSE01,Indian Railway Finance Corporation Ltd,7.65,1,2021-03-15,no G-sec curve on or before 2018-03-26
+2018-03-27,INE053F07AK6,99.9611,7.7122,146.3,NSE01,Indian Railway Finance Corporation Ltd,7.65,1,2021-03-15,no G-sec curve on or before 2018-03-27
+2018-03-28,INE053F07AK6,100.509,7.4887,30.0,NSE01,Indian Railway Finance Corporation Ltd,7.65,1,2021-03-15,no G-sec curve on or before 2018-03-28
+2018-04-03,INE053F07AK6,100.7139,7.42,45.0,NSE01,Indian Railway Finance Corporation Ltd,7.65,1,2021-03-15,no G-sec curve on or before 2018-04-03
+2018-04-04,INE053F07AK6,100.5603,7.46,0.4,NSE01,Indian Railway Finance Corporation Ltd,7.65,1,2021-03-15,no G-sec curve on or before 2018-04-04
+2018-04-05,INE053F07AK6,100.4497,7.4992,5.1,NSE01,Indian Railway Finance Corporation Ltd,7.65,1,2021-03-15,no G-sec curve on or before 2018-04-05
+2018-05-28,INE053F07AK6,98.3229,8.095,65.0,NSE01,Indian Railway Finance Corporation Ltd,7.65,1,2021-03-15,latest G-sec curve before 2018-05-28 is 2018-05-18 (> 7 days stale)
+2018-05-30,INE053F07AK6,98.3639,8.35,47.0,NSE01,Indian Railway Finance Corporation Ltd,7.65,1,2021-03-15,latest G-sec curve before 2018-05-30 is 2018-05-18 (> 7 days stale)
+2018-05-31,INE053F07AK6,98.3737,8.095,65.0,NSE01,Indian Railway Finance Corporation Ltd,7.65,1,2021-03-15,latest G-sec curve before 2018-05-31 is 2018-05-18 (> 7 days stale)
+2022-04-21,INE053F07CQ9,94.3125,7.4166,25.0,NSE01,Indian Railway Finance Corporation Ltd,6.73,1,2035-07-06,latest G-sec curve before 2022-04-21 is 2022-04-13 (> 7 days stale)
+2021-11-11,INE115A07NP6,109.8613,6.93,5.0,NSE01,LIC Housing Finance Ltd,8.75,1,2028-12-08,latest G-sec curve before 2021-11-11 is 2021-11-03 (> 7 days stale)
+2022-04-21,INE115A07NP6,107.1735,7.3258,65.0,NSE01,LIC Housing Finance Ltd,8.75,1,2028-12-08,latest G-sec curve before 2022-04-21 is 2022-04-13 (> 7 days stale)
+2018-01-10,INE134E08JD1,97.288,7.805,95.0,NSE01,Power Finance Corporation Ltd,7.1,1,2022-08-08,no G-sec curve on or before 2018-01-10
+2018-01-22,INE134E08JD1,97.1394,7.85,25.0,NSE01,Power Finance Corporation Ltd,7.1,1,2022-08-08,no G-sec curve on or before 2018-01-22
+2018-01-24,INE134E08JD1,97.3985,7.78,10.0,NSE01,Power Finance Corporation Ltd,7.1,1,2022-08-08,no G-sec curve on or before 2018-01-24
+2018-01-25,INE134E08JD1,97.2591,7.82,25.0,NSE01,Power Finance Corporation Ltd,7.1,1,2022-08-08,no G-sec curve on or before 2018-01-25
+2018-01-29,INE134E08JD1,97.39,7.785,130.0,NSE01,Power Finance Corporation Ltd,7.1,1,2022-08-08,no G-sec curve on or before 2018-01-29
+2018-01-31,INE134E08JD1,97.3461,7.8,15.0,NSE01,Power Finance Corporation Ltd,7.1,1,2022-08-08,no G-sec curve on or before 2018-01-31
+2018-02-15,INE134E08JD1,97.2808,7.83,10.0,NSE01,Power Finance Corporation Ltd,7.1,1,2022-08-08,no G-sec curve on or before 2018-02-15
+2018-03-15,INE134E08JD1,96.6115,8.021,225.0,NSE01,Power Finance Corporation Ltd,7.1,1,2022-08-08,no G-sec curve on or before 2018-03-15
+2018-03-16,INE134E08JD1,96.6256,8.0172,75.0,NSE01,Power Finance Corporation Ltd,7.1,1,2022-08-08,no G-sec curve on or before 2018-03-16
+2018-04-03,INE134E08JD1,97.2465,7.85,100.0,NSE01,Power Finance Corporation Ltd,7.1,1,2022-08-08,no G-sec curve on or before 2018-04-03
+2018-04-04,INE134E08JD1,97.3663,7.8143,250.0,NSE01,Power Finance Corporation Ltd,7.1,1,2022-08-08,no G-sec curve on or before 2018-04-04
+2018-04-05,INE134E08JD1,97.3452,7.8226,20.0,NSE01,Power Finance Corporation Ltd,7.1,1,2022-08-08,no G-sec curve on or before 2018-04-05
+2018-05-28,INE134E08JD1,94.635,8.6588,2.0,NSE01,Power Finance Corporation Ltd,7.1,1,2022-08-08,latest G-sec curve before 2018-05-28 is 2018-05-18 (> 7 days stale)
+2018-05-29,INE134E08JD1,94.9085,8.58,8.6,NSE01,Power Finance Corporation Ltd,7.1,1,2022-08-08,latest G-sec curve before 2018-05-29 is 2018-05-18 (> 7 days stale)
+2018-05-30,INE134E08JD1,94.93,8.57,8.6,NSE01,Power Finance Corporation Ltd,7.1,1,2022-08-08,latest G-sec curve before 2018-05-30 is 2018-05-18 (> 7 days stale)
+2018-04-05,INE134E08JP5,100.1191,7.8823,1335.0,NSE01,Power Finance Corporation Ltd,7.85,2,2028-04-03,no G-sec curve on or before 2018-04-05
+2018-05-28,INE134E08JP5,95.5915,8.6914,17.5,NSE01,Power Finance Corporation Ltd,7.85,2,2028-04-03,latest G-sec curve before 2018-05-28 is 2018-05-18 (> 7 days stale)
+2018-05-29,INE134E08JP5,96.2912,8.5797,33.8,NSE01,Power Finance Corporation Ltd,7.85,2,2028-04-03,latest G-sec curve before 2018-05-29 is 2018-05-18 (> 7 days stale)
+2018-05-30,INE134E08JP5,96.42,8.56,1.8,NSE01,Power Finance Corporation Ltd,7.85,2,2028-04-03,latest G-sec curve before 2018-05-30 is 2018-05-18 (> 7 days stale)
+2018-05-31,INE134E08JP5,95.9726,8.63,20.0,NSE01,Power Finance Corporation Ltd,7.85,2,2028-04-03,latest G-sec curve before 2018-05-31 is 2018-05-18 (> 7 days stale)
+2018-01-31,INE148I07GE8,101.0755,8.3636,5.0,NSE01,Indiabulls Housing Finance Ltd,8.75,1,2021-09-26,no G-sec curve on or before 2018-01-31
+2018-02-20,INE148I07GE8,100.945,8.4,10.0,NSE01,Indiabulls Housing Finance Ltd,8.75,1,2021-09-26,no G-sec curve on or before 2018-02-20
+2018-02-21,INE148I07GE8,100.6566,8.67,10.0,NSE01,Indiabulls Housing Finance Ltd,8.75,1,2021-09-26,no G-sec curve on or before 2018-02-21
+2018-02-27,INE148I07GE8,100.636,8.5,0.2,NSE01,Indiabulls Housing Finance Ltd,8.75,1,2021-09-26,no G-sec curve on or before 2018-02-27
+2018-02-28,INE148I07GE8,100.656,8.5,0.2,NSE01,Indiabulls Housing Finance Ltd,8.75,1,2021-09-26,no G-sec curve on or before 2018-02-28
+2018-03-06,INE148I07GE8,100.776,8.4519,0.2,NSE01,Indiabulls Housing Finance Ltd,8.75,1,2021-09-26,no G-sec curve on or before 2018-03-06
+2018-03-08,INE148I07GE8,100.7811,8.45,1.0,NSE01,Indiabulls Housing Finance Ltd,8.75,1,2021-09-26,no G-sec curve on or before 2018-03-08
+2018-03-09,INE148I07GE8,100.8134,8.439,21.0,NSE01,Indiabulls Housing Finance Ltd,8.75,1,2021-09-26,no G-sec curve on or before 2018-03-09
+2018-05-28,INE148I07IL9,97.3668,9.0,10.0,NSE01,Indiabulls Housing Finance Ltd,8.0,1,2021-07-09,latest G-sec curve before 2018-05-28 is 2018-05-18 (> 7 days stale)
+2018-01-10,INE148I08215,104.52,8.51,0.65,NSE01,Indiabulls Housing Finance Ltd,9.3,1,2026-06-29,no G-sec curve on or before 2018-01-10
+2018-01-15,INE148I08215,104.5343,8.5075,2.0,NSE01,Indiabulls Housing Finance Ltd,9.3,1,2026-06-29,no G-sec curve on or before 2018-01-15
+2018-01-17,INE148I08215,104.4347,8.52,0.2,NSE01,Indiabulls Housing Finance Ltd,9.3,1,2026-06-29,no G-sec curve on or before 2018-01-17
+2018-01-19,INE148I08215,104.62,8.4894,0.2,NSE01,Indiabulls Housing Finance Ltd,9.3,1,2026-06-29,no G-sec curve on or before 2018-01-19
+2018-01-22,INE148I08215,104.2602,8.5483,9.27,NSE01,Indiabulls Housing Finance Ltd,9.3,1,2026-06-29,no G-sec curve on or before 2018-01-22
+2018-01-23,INE148I08215,104.515,8.505,1.2,NSE01,Indiabulls Housing Finance Ltd,9.3,1,2026-06-29,no G-sec curve on or before 2018-01-23
+2018-01-25,INE148I08215,104.45,8.52,4.0,NSE01,Indiabulls Housing Finance Ltd,9.3,1,2026-06-29,no G-sec curve on or before 2018-01-25
+2018-01-30,INE148I08215,104.45,8.52,4.0,NSE01,Indiabulls Housing Finance Ltd,9.3,1,2026-06-29,no G-sec curve on or before 2018-01-30
+2018-02-09,INE148I08215,103.07,8.75,2.7,NSE01,Indiabulls Housing Finance Ltd,9.3,1,2026-06-29,no G-sec curve on or before 2018-02-09
+2018-02-15,INE148I08215,104.255,8.5502,1.0,NSE01,Indiabulls Housing Finance Ltd,9.3,1,2026-06-29,no G-sec curve on or before 2018-02-15
+2018-02-16,INE148I08215,104.2267,8.55,1.5,NSE01,Indiabulls Housing Finance Ltd,9.3,1,2026-06-29,no G-sec curve on or before 2018-02-16
+2018-02-20,INE148I08215,103.43,8.69,0.9,NSE01,Indiabulls Housing Finance Ltd,9.3,1,2026-06-29,no G-sec curve on or before 2018-02-20
+2018-02-22,INE148I08215,104.04,8.5813,0.3,NSE01,Indiabulls Housing Finance Ltd,9.3,1,2026-06-29,no G-sec curve on or before 2018-02-22
+2018-02-26,INE148I08215,103.7343,8.6344,1.05,NSE01,Indiabulls Housing Finance Ltd,9.3,1,2026-06-29,no G-sec curve on or before 2018-02-26
+2018-02-27,INE148I08215,103.52,8.6684,0.7,NSE01,Indiabulls Housing Finance Ltd,9.3,1,2026-06-29,no G-sec curve on or before 2018-02-27
+2018-03-14,INE148I08215,103.5471,8.6609,1.05,NSE01,Indiabulls Housing Finance Ltd,9.3,1,2026-06-29,no G-sec curve on or before 2018-03-14
+2018-03-19,INE148I08215,102.7397,8.8,17.4,NSE01,Indiabulls Housing Finance Ltd,9.3,1,2026-06-29,no G-sec curve on or before 2018-03-19
+2018-03-20,INE148I08215,103.2018,8.7226,21.47,NSE01,Indiabulls Housing Finance Ltd,9.3,1,2026-06-29,no G-sec curve on or before 2018-03-20
+2018-03-21,INE148I08215,103.1916,8.7221,16.97,NSE01,Indiabulls Housing Finance Ltd,9.3,1,2026-06-29,no G-sec curve on or before 2018-03-21
+2018-03-22,INE148I08215,103.3101,8.705,11.86,NSE01,Indiabulls Housing Finance Ltd,9.3,1,2026-06-29,no G-sec curve on or before 2018-03-22
+2018-03-23,INE148I08215,103.7704,8.6304,4.8,NSE01,Indiabulls Housing Finance Ltd,9.3,1,2026-06-29,no G-sec curve on or before 2018-03-23
+2018-03-26,INE148I08215,103.4583,8.678,3.6,NSE01,Indiabulls Housing Finance Ltd,9.3,1,2026-06-29,no G-sec curve on or before 2018-03-26
+2018-03-27,INE148I08215,104.0298,8.5759,6.42,NSE01,Indiabulls Housing Finance Ltd,9.3,1,2026-06-29,no G-sec curve on or before 2018-03-27
+2018-03-28,INE148I08215,104.0649,8.5792,8.55,NSE01,Indiabulls Housing Finance Ltd,9.3,1,2026-06-29,no G-sec curve on or before 2018-03-28
+2018-05-30,INE148I08215,102.51,8.8405,0.2,NSE01,Indiabulls Housing Finance Ltd,9.3,1,2026-06-29,latest G-sec curve before 2018-05-30 is 2018-05-18 (> 7 days stale)
+2021-11-11,INE148I08215,91.0974,11.87,0.2,NSE01,Indiabulls Housing Finance Ltd,9.3,1,2026-06-29,latest G-sec curve before 2021-11-11 is 2021-11-03 (> 7 days stale)
+2018-01-25,INE148I08280,98.4223,8.65,35.0,NSE01,Indiabulls Housing Finance Ltd,8.35,1,2024-09-06,no G-sec curve on or before 2018-01-25
+2018-03-05,INE155A08225,103.2521,8.2266,5.0,NSE01,Tata Motors Ltd,9.73,1,2020-10-01,no G-sec curve on or before 2018-03-05
+2018-01-09,INE155A08282,101.2993,7.9135,5.0,NSE01,Tata Motors Ltd,8.4,1,2021-05-26,no G-sec curve on or before 2018-01-09
+2018-01-03,INE155A08316,98.6667,7.9,25.0,NSE01,Tata Motors Ltd,7.5,1,2021-10-20,no G-sec curve on or before 2018-01-03
+2018-02-08,INE155A08316,98.04,8.11,50.0,NSE01,Tata Motors Ltd,7.5,1,2021-10-20,no G-sec curve on or before 2018-02-08
+2018-02-14,INE155A08316,98.2256,8.05,10.0,NSE01,Tata Motors Ltd,7.5,1,2021-10-20,no G-sec curve on or before 2018-02-14
+2018-02-21,INE155A08316,97.7922,8.2,10.0,NSE01,Tata Motors Ltd,7.5,1,2021-10-20,no G-sec curve on or before 2018-02-21
+2018-01-04,INE155A08365,98.4568,7.8999,390.0,NSE01,Tata Motors Ltd,7.4,1,2021-06-29,no G-sec curve on or before 2018-01-04
+2018-05-28,INE155A08365,96.4179,8.7641,55.0,NSE01,Tata Motors Ltd,7.4,1,2021-06-29,latest G-sec curve before 2018-05-28 is 2018-05-18 (> 7 days stale)
+2018-01-01,INE202B07HV0,102.1518,8.91,20.0,NSE01,Dewan Housing Finance Corporation Ltd,9.3,1,2026-08-16,no G-sec curve on or before 2018-01-01
+2018-01-02,INE202B07HV0,102.5121,8.85,0.2,NSE01,Dewan Housing Finance Corporation Ltd,9.3,1,2026-08-16,no G-sec curve on or before 2018-01-02
+2018-01-09,INE202B07HV0,102.6,8.835,0.7,NSE01,Dewan Housing Finance Corporation Ltd,9.3,1,2026-08-16,no G-sec curve on or before 2018-01-09
+2018-01-18,INE202B07HV0,101.7842,8.97,5.0,NSE01,Dewan Housing Finance Corporation Ltd,9.3,1,2026-08-16,no G-sec curve on or before 2018-01-18
+2018-01-19,INE202B07HV0,102.35,8.88,0.2,NSE01,Dewan Housing Finance Corporation Ltd,9.3,1,2026-08-16,no G-sec curve on or before 2018-01-19
+2018-01-23,INE202B07HV0,101.7816,8.97,20.0,NSE01,Dewan Housing Finance Corporation Ltd,9.3,1,2026-08-16,no G-sec curve on or before 2018-01-23
+2018-01-25,INE202B07HV0,102.17,8.9,6.0,NSE01,Dewan Housing Finance Corporation Ltd,9.3,1,2026-08-16,no G-sec curve on or before 2018-01-25
+2018-01-29,INE202B07HV0,102.22,8.8952,6.0,NSE01,Dewan Housing Finance Corporation Ltd,9.3,1,2026-08-16,no G-sec curve on or before 2018-01-29
+2018-01-30,INE202B07HV0,101.8,8.97,0.25,NSE01,Dewan Housing Finance Corporation Ltd,9.3,1,2026-08-16,no G-sec curve on or before 2018-01-30
+2018-02-02,INE202B07HV0,101.765,8.975,20.0,NSE01,Dewan Housing Finance Corporation Ltd,9.3,1,2026-08-16,no G-sec curve on or before 2018-02-02
+2018-02-09,INE202B07HV0,102.75,8.8046,0.05,NSE01,Dewan Housing Finance Corporation Ltd,9.3,1,2026-08-16,no G-sec curve on or before 2018-02-09
+2018-02-14,INE202B07HV0,102.46,8.86,0.1,NSE01,Dewan Housing Finance Corporation Ltd,9.3,1,2026-08-16,no G-sec curve on or before 2018-02-14
+2018-02-15,INE202B07HV0,102.3166,8.8793,3.9772,NSE01,Dewan Housing Finance Corporation Ltd,9.3,1,2026-08-16,no G-sec curve on or before 2018-02-15
+2018-02-16,INE202B07HV0,102.1814,8.9,8.8,NSE01,Dewan Housing Finance Corporation Ltd,9.3,1,2026-08-16,no G-sec curve on or before 2018-02-16
+2018-02-21,INE202B07HV0,102.15,8.91,0.25,NSE01,Dewan Housing Finance Corporation Ltd,9.3,1,2026-08-16,no G-sec curve on or before 2018-02-21
+2018-02-22,INE202B07HV0,103.02,8.76,3.0,NSE01,Dewan Housing Finance Corporation Ltd,9.3,1,2026-08-16,no G-sec curve on or before 2018-02-22
+2018-02-23,INE202B07HV0,101.9633,8.938,7.8,NSE01,Dewan Housing Finance Corporation Ltd,9.3,1,2026-08-16,no G-sec curve on or before 2018-02-23
+2018-02-26,INE202B07HV0,103.0,8.76,10.44,NSE01,Dewan Housing Finance Corporation Ltd,9.3,1,2026-08-16,no G-sec curve on or before 2018-02-26
+2018-02-28,INE202B07HV0,102.6207,8.8313,3.0,NSE01,Dewan Housing Finance Corporation Ltd,9.3,1,2026-08-16,no G-sec curve on or before 2018-02-28
+2018-03-01,INE202B07HV0,101.77,8.97,10.44,NSE01,Dewan Housing Finance Corporation Ltd,9.3,1,2026-08-16,no G-sec curve on or before 2018-03-01
+2018-03-05,INE202B07HV0,101.8101,8.964,16.8,NSE01,Dewan Housing Finance Corporation Ltd,9.3,1,2026-08-16,no G-sec curve on or before 2018-03-05
+2018-03-06,INE202B07HV0,102.2741,8.8812,17.0,NSE01,Dewan Housing Finance Corporation Ltd,9.3,1,2026-08-16,no G-sec curve on or before 2018-03-06
+2018-03-07,INE202B07HV0,102.4471,8.8604,35.0,NSE01,Dewan Housing Finance Corporation Ltd,9.3,1,2026-08-16,no G-sec curve on or before 2018-03-07
+2018-03-12,INE202B07HV0,102.17,8.9,22.8,NSE01,Dewan Housing Finance Corporation Ltd,9.3,1,2026-08-16,no G-sec curve on or before 2018-03-12
+2018-03-21,INE202B07HV0,102.2257,8.89,7.0,NSE01,Dewan Housing Finance Corporation Ltd,9.3,1,2026-08-16,no G-sec curve on or before 2018-03-21
+2018-03-23,INE202B07HV0,102.6658,8.8154,5.7,NSE01,Dewan Housing Finance Corporation Ltd,9.3,1,2026-08-16,no G-sec curve on or before 2018-03-23
+2018-03-26,INE202B07HV0,102.11,8.9067,0.9,NSE01,Dewan Housing Finance Corporation Ltd,9.3,1,2026-08-16,no G-sec curve on or before 2018-03-26
+2018-03-27,INE202B07HV0,104.555,8.5008,4.8,NSE01,Dewan Housing Finance Corporation Ltd,9.3,1,2026-08-16,no G-sec curve on or before 2018-03-27
+2018-03-28,INE202B07HV0,104.2294,8.5568,0.17,NSE01,Dewan Housing Finance Corporation Ltd,9.3,1,2026-08-16,no G-sec curve on or before 2018-03-28
+2018-05-28,INE202B07HV0,100.45,9.2004,1.0,NSE01,Dewan Housing Finance Corporation Ltd,9.3,1,2026-08-16,latest G-sec curve before 2018-05-28 is 2018-05-18 (> 7 days stale)
+2018-05-30,INE202B07HV0,100.42,9.21,0.44,NSE01,Dewan Housing Finance Corporation Ltd,9.3,1,2026-08-16,latest G-sec curve before 2018-05-30 is 2018-05-18 (> 7 days stale)
+2018-01-01,INE202B07IN5,100.7648,8.85,15.0,NSE01,Dewan Housing Finance Corporation Ltd,9.05,1,2023-09-09,no G-sec curve on or before 2018-01-01
+2018-01-02,INE202B07IN5,100.7693,8.8492,10.4,NSE01,Dewan Housing Finance Corporation Ltd,9.05,1,2023-09-09,no G-sec curve on or before 2018-01-02
+2018-01-03,INE202B07IN5,100.6813,8.8662,22.0,NSE01,Dewan Housing Finance Corporation Ltd,9.05,1,2023-09-09,no G-sec curve on or before 2018-01-03
+2018-01-04,INE202B07IN5,100.6861,8.867,25.0,NSE01,Dewan Housing Finance Corporation Ltd,9.05,1,2023-09-09,no G-sec curve on or before 2018-01-04
+2018-01-05,INE202B07IN5,100.77,8.85,5.15,NSE01,Dewan Housing Finance Corporation Ltd,9.05,1,2023-09-09,no G-sec curve on or before 2018-01-05
+2018-01-10,INE202B07IN5,100.7611,8.8497,25.26,NSE01,Dewan Housing Finance Corporation Ltd,9.05,1,2023-09-09,no G-sec curve on or before 2018-01-10
+2018-01-11,INE202B07IN5,101.06,8.78,0.1,NSE01,Dewan Housing Finance Corporation Ltd,9.05,1,2023-09-09,no G-sec curve on or before 2018-01-11
+2018-01-12,INE202B07IN5,100.8,8.84,2.0,NSE01,Dewan Housing Finance Corporation Ltd,9.05,1,2023-09-09,no G-sec curve on or before 2018-01-12
+2018-01-16,INE202B07IN5,100.8404,8.8333,26.0,NSE01,Dewan Housing Finance Corporation Ltd,9.05,1,2023-09-09,no G-sec curve on or before 2018-01-16
+2018-01-17,INE202B07IN5,100.7212,8.8574,3.3,NSE01,Dewan Housing Finance Corporation Ltd,9.05,1,2023-09-09,no G-sec curve on or before 2018-01-17
+2018-01-18,INE202B07IN5,100.7491,8.8508,55.2693,NSE01,Dewan Housing Finance Corporation Ltd,9.05,1,2023-09-09,no G-sec curve on or before 2018-01-18
+2018-01-19,INE202B07IN5,100.7099,8.86,10.0,NSE01,Dewan Housing Finance Corporation Ltd,9.05,1,2023-09-09,no G-sec curve on or before 2018-01-19
+2018-01-22,INE202B07IN5,100.79,8.84,5.0,NSE01,Dewan Housing Finance Corporation Ltd,9.05,1,2023-09-09,no G-sec curve on or before 2018-01-22
+2018-01-23,INE202B07IN5,100.75,8.85,7.381,NSE01,Dewan Housing Finance Corporation Ltd,9.05,1,2023-09-09,no G-sec curve on or before 2018-01-23
+2018-01-24,INE202B07IN5,100.7299,8.8548,7.8,NSE01,Dewan Housing Finance Corporation Ltd,9.05,1,2023-09-09,no G-sec curve on or before 2018-01-24
+2018-01-29,INE202B07IN5,100.36,8.9399,1.6,NSE01,Dewan Housing Finance Corporation Ltd,9.05,1,2023-09-09,no G-sec curve on or before 2018-01-29
+2018-01-30,INE202B07IN5,100.4875,8.91,42.55,NSE01,Dewan Housing Finance Corporation Ltd,9.05,1,2023-09-09,no G-sec curve on or before 2018-01-30
+2018-02-08,INE202B07IN5,100.6123,8.8799,35.0,NSE01,Dewan Housing Finance Corporation Ltd,9.05,1,2023-09-09,no G-sec curve on or before 2018-02-08
+2018-02-09,INE202B07IN5,100.7777,8.84,3.0,NSE01,Dewan Housing Finance Corporation Ltd,9.05,1,2023-09-09,no G-sec curve on or before 2018-02-09
+2018-02-14,INE202B07IN5,100.8238,8.83,0.59,NSE01,Dewan Housing Finance Corporation Ltd,9.05,1,2023-09-09,no G-sec curve on or before 2018-02-14
+2018-02-15,INE202B07IN5,100.75,8.8471,0.59,NSE01,Dewan Housing Finance Corporation Ltd,9.05,1,2023-09-09,no G-sec curve on or before 2018-02-15
+2018-02-21,INE202B07IN5,100.8793,8.8192,17.35,NSE01,Dewan Housing Finance Corporation Ltd,9.05,1,2023-09-09,no G-sec curve on or before 2018-02-21
+2018-02-22,INE202B07IN5,100.8423,8.8256,29.75,NSE01,Dewan Housing Finance Corporation Ltd,9.05,1,2023-09-09,no G-sec curve on or before 2018-02-22
+2018-02-23,INE202B07IN5,100.92,8.8176,6.0,NSE01,Dewan Housing Finance Corporation Ltd,9.05,1,2023-09-09,no G-sec curve on or before 2018-02-23
+2018-02-26,INE202B07IN5,100.7755,8.8479,3.56,NSE01,Dewan Housing Finance Corporation Ltd,9.05,1,2023-09-09,no G-sec curve on or before 2018-02-26
+2018-02-27,INE202B07IN5,100.4,8.93,0.2,NSE01,Dewan Housing Finance Corporation Ltd,9.05,1,2023-09-09,no G-sec curve on or before 2018-02-27
+2018-02-28,INE202B07IN5,100.4355,8.9196,0.8001,NSE01,Dewan Housing Finance Corporation Ltd,9.05,1,2023-09-09,no G-sec curve on or before 2018-02-28
+2018-03-01,INE202B07IN5,100.5206,8.8993,17.4,NSE01,Dewan Housing Finance Corporation Ltd,9.05,1,2023-09-09,no G-sec curve on or before 2018-03-01
+2018-03-05,INE202B07IN5,100.7925,8.8322,15.7,NSE01,Dewan Housing Finance Corporation Ltd,9.05,1,2023-09-09,no G-sec curve on or before 2018-03-05
+2018-03-09,INE202B07IN5,100.5691,8.8931,4.0,NSE01,Dewan Housing Finance Corporation Ltd,9.05,1,2023-09-09,no G-sec curve on or before 2018-03-09
+2018-03-12,INE202B07IN5,100.7,8.85,0.6,NSE01,Dewan Housing Finance Corporation Ltd,9.05,1,2023-09-09,no G-sec curve on or before 2018-03-12
+2018-03-13,INE202B07IN5,100.89,8.81,2.3,NSE01,Dewan Housing Finance Corporation Ltd,9.05,1,2023-09-09,no G-sec curve on or before 2018-03-13
+2018-03-19,INE202B07IN5,100.6754,8.8618,75.0,NSE01,Dewan Housing Finance Corporation Ltd,9.05,1,2023-09-09,no G-sec curve on or before 2018-03-19
+2018-03-21,INE202B07IN5,101.2,8.74,0.4,NSE01,Dewan Housing Finance Corporation Ltd,9.05,1,2023-09-09,no G-sec curve on or before 2018-03-21
+2018-03-23,INE202B07IN5,101.15,8.75,2.0,NSE01,Dewan Housing Finance Corporation Ltd,9.05,1,2023-09-09,no G-sec curve on or before 2018-03-23
+2018-01-01,INE202B07IO3,101.59,8.86,4.3,NSE01,Dewan Housing Finance Corporation Ltd,9.25,1,2023-09-09,no G-sec curve on or before 2018-01-01
+2018-01-03,INE202B07IO3,101.625,8.85,5.0,NSE01,Dewan Housing Finance Corporation Ltd,9.25,1,2023-09-09,no G-sec curve on or before 2018-01-03
+2018-01-05,INE202B07IO3,101.7364,8.8251,3.25,NSE01,Dewan Housing Finance Corporation Ltd,9.25,1,2023-09-09,no G-sec curve on or before 2018-01-05
+2018-01-09,INE202B07IO3,101.7265,8.8239,2.3,NSE01,Dewan Housing Finance Corporation Ltd,9.25,1,2023-09-09,no G-sec curve on or before 2018-01-09
+2018-01-11,INE202B07IO3,101.5455,8.8674,13.9877,NSE01,Dewan Housing Finance Corporation Ltd,9.25,1,2023-09-09,no G-sec curve on or before 2018-01-11
+2018-01-12,INE202B07IO3,101.66,8.84,9.25,NSE01,Dewan Housing Finance Corporation Ltd,9.25,1,2023-09-09,no G-sec curve on or before 2018-01-12
+2018-01-17,INE202B07IO3,101.59,8.86,1.2,NSE01,Dewan Housing Finance Corporation Ltd,9.25,1,2023-09-09,no G-sec curve on or before 2018-01-17
+2018-01-18,INE202B07IO3,101.5835,8.8485,103.1693,NSE01,Dewan Housing Finance Corporation Ltd,9.25,1,2023-09-09,no G-sec curve on or before 2018-01-18
+2018-01-19,INE202B07IO3,101.6035,8.8519,1.72,NSE01,Dewan Housing Finance Corporation Ltd,9.25,1,2023-09-09,no G-sec curve on or before 2018-01-19
+2018-01-22,INE202B07IO3,101.7153,8.8305,0.32,NSE01,Dewan Housing Finance Corporation Ltd,9.25,1,2023-09-09,no G-sec curve on or before 2018-01-22
+2018-01-24,INE202B07IO3,101.8,8.805,0.2,NSE01,Dewan Housing Finance Corporation Ltd,9.25,1,2023-09-09,no G-sec curve on or before 2018-01-24
+2018-01-25,INE202B07IO3,101.6297,8.8258,11.05,NSE01,Dewan Housing Finance Corporation Ltd,9.25,1,2023-09-09,no G-sec curve on or before 2018-01-25
+2018-01-29,INE202B07IO3,101.8,8.8082,0.6,NSE01,Dewan Housing Finance Corporation Ltd,9.25,1,2023-09-09,no G-sec curve on or before 2018-01-29
+2018-01-30,INE202B07IO3,101.3276,8.9126,40.4,NSE01,Dewan Housing Finance Corporation Ltd,9.25,1,2023-09-09,no G-sec curve on or before 2018-01-30
+2018-01-31,INE202B07IO3,101.05,8.98,0.2,NSE01,Dewan Housing Finance Corporation Ltd,9.25,1,2023-09-09,no G-sec curve on or before 2018-01-31
+2018-02-07,INE202B07IO3,101.2045,8.942,0.3,NSE01,Dewan Housing Finance Corporation Ltd,9.25,1,2023-09-09,no G-sec curve on or before 2018-02-07
+2018-02-12,INE202B07IO3,101.5182,8.8722,2.31,NSE01,Dewan Housing Finance Corporation Ltd,9.25,1,2023-09-09,no G-sec curve on or before 2018-02-12
+2018-02-15,INE202B07IO3,101.65,8.8463,1.31,NSE01,Dewan Housing Finance Corporation Ltd,9.25,1,2023-09-09,no G-sec curve on or before 2018-02-15
+2018-02-16,INE202B07IO3,101.4957,8.87,70.0,NSE01,Dewan Housing Finance Corporation Ltd,9.25,1,2023-09-09,no G-sec curve on or before 2018-02-16
+2018-02-20,INE202B07IO3,101.382,8.8964,125.3,NSE01,Dewan Housing Finance Corporation Ltd,9.25,1,2023-09-09,no G-sec curve on or before 2018-02-20
+2018-02-21,INE202B07IO3,103.3047,8.453,0.3,NSE01,Dewan Housing Finance Corporation Ltd,9.25,1,2023-09-09,no G-sec curve on or before 2018-02-21
+2018-02-27,INE202B07IO3,101.5205,8.8649,0.111,NSE01,Dewan Housing Finance Corporation Ltd,9.25,1,2023-09-09,no G-sec curve on or before 2018-02-27
+2018-02-28,INE202B07IO3,101.1148,8.9578,5.0,NSE01,Dewan Housing Finance Corporation Ltd,9.25,1,2023-09-09,no G-sec curve on or before 2018-02-28
+2018-03-05,INE202B07IO3,101.2724,8.92,50.0,NSE01,Dewan Housing Finance Corporation Ltd,9.25,1,2023-09-09,no G-sec curve on or before 2018-03-05
+2018-03-08,INE202B07IO3,101.3335,8.91,35.0,NSE01,Dewan Housing Finance Corporation Ltd,9.25,1,2023-09-09,no G-sec curve on or before 2018-03-08
+2018-03-20,INE202B07IO3,101.5989,8.8409,55.0,NSE01,Dewan Housing Finance Corporation Ltd,9.25,1,2023-09-09,no G-sec curve on or before 2018-03-20
+2018-03-21,INE202B07IO3,101.5181,8.86,5.0,NSE01,Dewan Housing Finance Corporation Ltd,9.25,1,2023-09-09,no G-sec curve on or before 2018-03-21
+2018-03-22,INE202B07IO3,101.18,8.95,0.06,NSE01,Dewan Housing Finance Corporation Ltd,9.25,1,2023-09-09,no G-sec curve on or before 2018-03-22
+2018-03-23,INE202B07IO3,101.94,8.7652,0.06,NSE01,Dewan Housing Finance Corporation Ltd,9.25,1,2023-09-09,no G-sec curve on or before 2018-03-23
+2018-03-27,INE202B07IO3,101.3438,8.9051,0.0461,NSE01,Dewan Housing Finance Corporation Ltd,9.25,1,2023-09-09,no G-sec curve on or before 2018-03-27
+2018-04-05,INE202B07IO3,101.3571,8.8925,35.0,NSE01,Dewan Housing Finance Corporation Ltd,9.25,1,2023-09-09,no G-sec curve on or before 2018-04-05
+2018-05-30,INE202B07IO3,100.1294,9.1891,2.71,NSE01,Dewan Housing Finance Corporation Ltd,9.25,1,2023-09-09,latest G-sec curve before 2018-05-30 is 2018-05-18 (> 7 days stale)
+2018-01-12,INE572E09361,102.1815,7.8829,3.8,NSE01,PNB Housing Finance Ltd,8.47,2,2021-07-01,no G-sec curve on or before 2018-01-12
+2018-01-16,INE572E09361,102.0419,7.9284,4.2,NSE01,PNB Housing Finance Ltd,8.47,2,2021-07-01,no G-sec curve on or before 2018-01-16
+2018-01-17,INE572E09361,101.4116,8.162,25.0,NSE01,PNB Housing Finance Ltd,8.47,2,2021-07-01,no G-sec curve on or before 2018-01-17
+2018-02-12,INE572E09361,101.1785,8.23,45.0,NSE01,PNB Housing Finance Ltd,8.47,2,2021-07-01,no G-sec curve on or before 2018-02-12
+2018-02-14,INE572E09361,101.5064,8.105,10.8,NSE01,PNB Housing Finance Ltd,8.47,2,2021-07-01,no G-sec curve on or before 2018-02-14
+2018-02-21,INE572E09361,101.3718,8.15,10.0,NSE01,PNB Housing Finance Ltd,8.47,2,2021-07-01,no G-sec curve on or before 2018-02-21
+2018-01-11,INE572E09411,99.0639,8.06,25.0,NSE01,PNB Housing Finance Ltd,7.46,2,2020-04-30,no G-sec curve on or before 2018-01-11
+2018-02-21,INE572E09411,98.6034,8.33,5.0,NSE01,PNB Housing Finance Ltd,7.46,2,2020-04-30,no G-sec curve on or before 2018-02-21
+2018-02-22,INE572E09411,98.607,8.329,10.0,NSE01,PNB Housing Finance Ltd,7.46,2,2020-04-30,no G-sec curve on or before 2018-02-22
+2018-02-26,INE572E09411,98.5728,8.1938,45.0,NSE01,PNB Housing Finance Ltd,7.46,2,2020-04-30,no G-sec curve on or before 2018-02-26
+2018-03-15,INE572E09411,98.6445,8.33,10.0,NSE01,PNB Housing Finance Ltd,7.46,2,2020-04-30,no G-sec curve on or before 2018-03-15
+2018-03-16,INE572E09411,98.8002,8.2518,38.0,NSE01,PNB Housing Finance Ltd,7.46,2,2020-04-30,no G-sec curve on or before 2018-03-16
+2018-05-31,INE572E09478,97.2672,8.85,35.0,NSE01,PNB Housing Finance Ltd,7.5,1,2020-09-15,latest G-sec curve before 2018-05-31 is 2018-05-18 (> 7 days stale)
+2018-04-05,INE572E09486,98.0865,8.11,35.0,NSE01,PNB Housing Finance Ltd,7.59,1,2022-07-27,no G-sec curve on or before 2018-04-05
+2018-01-03,INE601U08010,99.5063,8.4146,0.4,NSE01,Tata Motors Finance Ltd,8.35,1,2027-11-13,no G-sec curve on or before 2018-01-03
+2018-01-04,INE601U08010,99.1049,8.475,4.0,NSE01,Tata Motors Finance Ltd,8.35,1,2027-11-13,no G-sec curve on or before 2018-01-04
+2018-01-05,INE601U08010,99.1718,8.4624,3.4,NSE01,Tata Motors Finance Ltd,8.35,1,2027-11-13,no G-sec curve on or before 2018-01-05
+2018-01-08,INE601U08010,100.0,8.34,5.0,NSE01,Tata Motors Finance Ltd,8.35,1,2027-11-13,no G-sec curve on or before 2018-01-08
+2018-01-09,INE601U08010,99.2782,8.4512,3.4,NSE01,Tata Motors Finance Ltd,8.35,1,2027-11-13,no G-sec curve on or before 2018-01-09
+2018-01-10,INE601U08010,99.08,8.48,1.0,NSE01,Tata Motors Finance Ltd,8.35,1,2027-11-13,no G-sec curve on or before 2018-01-10
+2018-01-11,INE601U08010,99.245,8.4525,1.0,NSE01,Tata Motors Finance Ltd,8.35,1,2027-11-13,no G-sec curve on or before 2018-01-11
+2018-01-12,INE601U08010,99.1508,8.469,1.2,NSE01,Tata Motors Finance Ltd,8.35,1,2027-11-13,no G-sec curve on or before 2018-01-12
+2018-01-15,INE601U08010,100.0,8.34,10.0,NSE01,Tata Motors Finance Ltd,8.35,1,2027-11-13,no G-sec curve on or before 2018-01-15
+2018-01-16,INE601U08010,99.235,8.4551,2.0,NSE01,Tata Motors Finance Ltd,8.35,1,2027-11-13,no G-sec curve on or before 2018-01-16
+2018-01-18,INE601U08010,99.06,8.48,0.2,NSE01,Tata Motors Finance Ltd,8.35,1,2027-11-13,no G-sec curve on or before 2018-01-18
+2018-01-19,INE601U08010,99.89,8.36,0.2,NSE01,Tata Motors Finance Ltd,8.35,1,2027-11-13,no G-sec curve on or before 2018-01-19
+2018-01-23,INE601U08010,99.04,8.4833,1.8,NSE01,Tata Motors Finance Ltd,8.35,1,2027-11-13,no G-sec curve on or before 2018-01-23
+2018-01-24,INE601U08010,99.1,8.4755,2.0,NSE01,Tata Motors Finance Ltd,8.35,1,2027-11-13,no G-sec curve on or before 2018-01-24
+2018-01-29,INE601U08010,99.1233,8.4733,6.0,NSE01,Tata Motors Finance Ltd,8.35,1,2027-11-13,no G-sec curve on or before 2018-01-29
+2018-01-31,INE601U08010,99.025,8.485,1.8,NSE01,Tata Motors Finance Ltd,8.35,1,2027-11-13,no G-sec curve on or before 2018-01-31
+2018-02-01,INE601U08010,99.2,8.46,0.9,NSE01,Tata Motors Finance Ltd,8.35,1,2027-11-13,no G-sec curve on or before 2018-02-01
+2018-02-09,INE601U08010,99.05,8.48,0.1,NSE01,Tata Motors Finance Ltd,8.35,1,2027-11-13,no G-sec curve on or before 2018-02-09
+2018-02-12,INE601U08010,99.15,8.47,0.1,NSE01,Tata Motors Finance Ltd,8.35,1,2027-11-13,no G-sec curve on or before 2018-02-12
+2018-02-15,INE601U08010,99.245,8.4518,1.6,NSE01,Tata Motors Finance Ltd,8.35,1,2027-11-13,no G-sec curve on or before 2018-02-15
+2018-02-20,INE601U08010,99.195,8.4621,1.6,NSE01,Tata Motors Finance Ltd,8.35,1,2027-11-13,no G-sec curve on or before 2018-02-20
+2018-02-21,INE601U08010,100.0,8.3347,15.0,NSE01,Tata Motors Finance Ltd,8.35,1,2027-11-13,no G-sec curve on or before 2018-02-21
+2018-02-22,INE601U08010,99.1418,8.4682,2.2,NSE01,Tata Motors Finance Ltd,8.35,1,2027-11-13,no G-sec curve on or before 2018-02-22
+2018-02-23,INE601U08010,98.87,8.51,1.0,NSE01,Tata Motors Finance Ltd,8.35,1,2027-11-13,no G-sec curve on or before 2018-02-23
+2018-02-26,INE601U08010,99.0333,8.4833,0.3,NSE01,Tata Motors Finance Ltd,8.35,1,2027-11-13,no G-sec curve on or before 2018-02-26
+2018-02-27,INE601U08010,98.9,8.5,0.3,NSE01,Tata Motors Finance Ltd,8.35,1,2027-11-13,no G-sec curve on or before 2018-02-27
+2018-02-28,INE601U08010,98.6755,8.54,1.0,NSE01,Tata Motors Finance Ltd,8.35,1,2027-11-13,no G-sec curve on or before 2018-02-28
+2018-03-14,INE601U08010,99.9354,8.35,10.4,NSE01,Tata Motors Finance Ltd,8.35,1,2027-11-13,no G-sec curve on or before 2018-03-14
+2018-03-20,INE601U08010,99.0857,8.4769,0.7,NSE01,Tata Motors Finance Ltd,8.35,1,2027-11-13,no G-sec curve on or before 2018-03-20
+2018-03-22,INE601U08010,99.1167,8.4701,3.6,NSE01,Tata Motors Finance Ltd,8.35,1,2027-11-13,no G-sec curve on or before 2018-03-22
+2018-03-23,INE601U08010,98.745,8.5275,4.0,NSE01,Tata Motors Finance Ltd,8.35,1,2027-11-13,no G-sec curve on or before 2018-03-23
+2018-03-27,INE601U08010,96.75,8.85,15.0,NSE01,Tata Motors Finance Ltd,8.35,1,2027-11-13,no G-sec curve on or before 2018-03-27
+2018-03-28,INE601U08010,96.775,8.85,10.0,NSE01,Tata Motors Finance Ltd,8.35,1,2027-11-13,no G-sec curve on or before 2018-03-28
+2018-04-03,INE601U08010,97.3338,8.7563,40.0,NSE01,Tata Motors Finance Ltd,8.35,1,2027-11-13,no G-sec curve on or before 2018-04-03
+2018-04-05,INE601U08010,99.44,8.42,0.2,NSE01,Tata Motors Finance Ltd,8.35,1,2027-11-13,no G-sec curve on or before 2018-04-05
+2018-03-16,INE641O08035,98.6305,9.785,16.0,NSE01,Piramal Capital & Housing Finance Ltd,9.55,1,2027-03-08,no G-sec curve on or before 2018-03-16
+2018-03-22,INE641O08035,100.0,9.55,3.3,NSE01,Piramal Capital & Housing Finance Ltd,9.55,1,2027-03-08,no G-sec curve on or before 2018-03-22
+2018-03-28,INE641O08035,105.995,8.56,0.2,NSE01,Piramal Capital & Housing Finance Ltd,9.55,1,2027-03-08,no G-sec curve on or before 2018-03-28
+2022-04-21,INE641O08035,97.1582,10.3,0.1,NSE01,Piramal Capital & Housing Finance Ltd,9.55,1,2027-03-08,latest G-sec curve before 2022-04-21 is 2022-04-13 (> 7 days stale)
+2018-05-31,INE669E08284,94.9797,9.7,70.0,NSE01,Vodafone Idea Ltd,8.04,1,2022-01-27,latest G-sec curve before 2018-05-31 is 2018-05-18 (> 7 days stale)
+2018-01-12,INE669E08292,98.3808,6.1885,50.0,NSE01,Vodafone Idea Ltd,8.03,1,2022-01-31,no G-sec curve on or before 2018-01-12
+2018-01-17,INE669E08292,98.442,8.5,50.0,NSE01,Vodafone Idea Ltd,8.03,1,2022-01-31,no G-sec curve on or before 2018-01-17
+2018-03-27,INE669E08292,98.7668,8.4,25.0,NSE01,Vodafone Idea Ltd,8.03,1,2022-01-31,no G-sec curve on or before 2018-03-27
+2018-03-28,INE669E08292,98.7768,8.3961,25.0,NSE01,Vodafone Idea Ltd,8.03,1,2022-01-31,no G-sec curve on or before 2018-03-28
+2021-11-11,INE804I079Y6,88.0778,12.54,0.3,NSE01,ECL Finance Ltd,9.85,1,2028-08-06,latest G-sec curve before 2021-11-11 is 2021-11-03 (> 7 days stale)

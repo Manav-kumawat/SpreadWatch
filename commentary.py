@@ -84,14 +84,17 @@ def build_facts(mode: str) -> Tuple[Dict[str, str], dict]:
             f["es.placebo_mean"] = f"placebo mean change was {_fmt(float(t['placebo_mean_dS_pre_bps']))} bps"
 
     probs = pd.read_csv(od / "transition_probs.csv", index_col=0)
+    counts = pd.read_csv(od / "transition_counts.csv", index_col=0)
     pdt = pd.read_csv(od / "pd_by_grade.csv", index_col=0)
     for g in ["AAA", "AA", "A", "BBB"]:
         if g in probs.index and probs.loc[g].notna().any():
-            f[f"tm.stay.{g}"] = f"{_pct(float(probs.loc[g, g]))} of {g}-rated units kept their category over one year"
+            n = int(counts.loc[g].drop("WR", errors="ignore").sum())
+            f[f"tm.stay.{g}"] = f"{_pct(float(probs.loc[g, g]))} of {n} {g}-rated unit-years kept their category over one year"
             down = probs.loc[g, probs.columns[list(probs.columns).index(g) + 1:]].sum()
-            f[f"tm.down.{g}"] = f"{_pct(float(down))} of {g}-rated units were downgraded within a year"
+            f[f"tm.down.{g}"] = f"{_pct(float(down))} of {n} {g}-rated unit-years were downgraded within a year"
         if g in pdt.index and pd.notna(pdt.loc[g, "PD_1y"]):
-            f[f"pd.{g}"] = (f"historical one-year PD for {g} is {_pct(float(pdt.loc[g, 'PD_1y']), 2)} and "
+            n = int(counts.loc[g].drop("WR", errors="ignore").sum()) if g in counts.index else 0
+            f[f"pd.{g}"] = (f"historical one-year PD for {g} (from {n} unit-years) is {_pct(float(pdt.loc[g, 'PD_1y']), 2)} and "
                             f"five-year PD is {_pct(float(pdt.loc[g, 'PD_5y']), 2)}")
     imp = pd.read_csv(od / "implied_vs_historical_pd.csv", index_col=0)
     for g in ["AA", "A", "BBB"]:
@@ -108,6 +111,7 @@ def build_facts(mode: str) -> Tuple[Dict[str, str], dict]:
         case = c.to_dict()
         f["case.action"] = (f"{c['issuer']} was downgraded from {c['rating_from']} to {c['rating_to']} "
                             f"on {c['action_date']}")
+        f["case.agency"] = f"{c.get('agency', '')}"
         f["case.widening"] = (f"its abnormal spread was {_fmt(c['dS_pre_bps'])} bps above its baseline in the 30 days "
                               f"before the action (z = {c['z_pre']:.1f})")
         if pd.notna(c["lead_days"]):
@@ -126,8 +130,31 @@ def retrieve_case_context(mode: str, case: dict, k: int = 2) -> List[dict]:
         return []
     q = ("rating action reflects weakening liquidity refinancing risk repayments leverage "
          "non-performing collections margins working capital")
-    key = str(case["issuer"]).replace(" ", "_")
-    hits = idx.search(q, k=k, file_contains=key) or idx.search(q, k=k)
+    # match the issuer in the file name the way the files are named (CRISIL_TataMotorsFinanceLtd_...,
+    # SYN_SYN_Issuer_04_Ltd_...); never fall back to another issuer's document
+    import re as _re
+    key = _re.sub(r"[^A-Za-z0-9]+", "", str(case["issuer"])).lower()
+    # only documents of this issuer, published within 90 days of the action, and only prose
+    # paragraphs (rating tables extracted from HTML are not quotable text)
+    d0 = pd.Timestamp(case.get("action_date"))
+
+    def near(fname):
+        m = _re.search(r"(\d{4}-\d{2}-\d{2})", fname)
+        return bool(m) and abs((pd.Timestamp(m.group(1)) - d0).days) <= 90
+
+    def prose(t):
+        words = t.split()
+        boiler = _re.search(r"(?i)@|toll free|analyst|media relations|disclaimer|customer service|"
+                            r"www\.|\+91|complexity level|subscribers|copyright", t)
+        return (len(words) >= 25 and not boiler
+                and sum(w.startswith(("CRISIL", "CARE", "[ICRA]")) for w in words) <= 2)
+
+    idx.chunks = [c for c in idx.chunks
+                  if key in _re.sub(r"[^A-Za-z0-9]+", "", c.file).lower() and near(c.file) and prose(c.text)]
+    if not idx.chunks:
+        return []
+    idx = RationaleIndex.__new__(RationaleIndex)._rebuild(idx.chunks)
+    hits = idx.search(q, k=k)
     date = str(case.get("action_date", ""))
     hits.sort(key=lambda h: date not in h["file"])           # prefer the rationale of that action
     return hits[:k]
@@ -137,9 +164,12 @@ def retrieve_case_context(mode: str, case: dict, k: int = 2) -> List[dict]:
 # Writers
 # ----------------------------------------------------------------------------
 def template_commentary(facts: Dict[str, str], src: pd.DataFrame, rag_hits: List[dict], mode: str) -> str:
-    sid = src["source_id"].iloc[0] if not src.empty else "SYN01"
-    if mode == "sample":
-        sid = "SYN01"
+    sid = "SYN01"
+    if mode != "sample" and not src.empty:
+        agency = facts.get("case.agency", "")
+        ratings_src = src[src["file"].str.startswith("data/raw/ratings/")]
+        match = ratings_src[ratings_src["publisher"].str.upper().str.startswith(agency.upper())] if agency else ratings_src
+        sid = (match if len(match) else ratings_src)["source_id"].iloc[0] if len(ratings_src) else src["source_id"].iloc[0]
     P = []
 
     def has(*keys):
